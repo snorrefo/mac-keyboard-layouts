@@ -1,0 +1,3390 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Created by Ukelele version 1.8b6 on 2008-05-05 at 18:13 (CEST)-->
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-11-04 at 10:44 (GMT+1)-->
+<!-- Utvida norsk tastaturoppsett med «mindre enn» og «større enn» på tast 50 -->
+<!-- versjon 2.2, redigert i Ukelele og manuelt, 10. februar 2012 -->
+<!-- Jardar Eggesbø Abrahamsen -->
+<!-- jardar@nvg.ntnu.no, abjaeg+tast@gmail.com, jardar.abrahamsen@ntnu.no -->
+<!-- License:
+The keyboard layout and its icon are Copyright © 2003–2012 Jardar Eggesbø Abrahamsen. But they are also freeware. You are also allowed to modify the keyboard layout and in this way create a new keyboard layout based on this one or parts of this one. Furthermore, you are allowed to distribute your modification, provided that the modified version contains information that it is based on the original made by Jardar Eggesbø Abrahamsen, and provided that you do not make charges for it.
+
+If you wish to distribute the original keyboard layout (or incorporate it into other products), you must ask permission from me. This also applies if you want to distribute a modified version (or incorporate it into other products) on conditions that are different from those mentioned above.
+
+When in doubt, just ask. :)
+-->
+<keyboard group="126" id="-24569" name="Norwegian PC Snorre" maxout="3">
+	<layouts>
+		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
+		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
+		<layout first="21" last="23" mapSet="JIS" modifiers="Modifiers"/>
+		<layout first="30" last="30" mapSet="JIS" modifiers="Modifiers"/>
+		<layout first="33" last="33" mapSet="JIS" modifiers="Modifiers"/>
+		<layout first="36" last="36" mapSet="JIS" modifiers="Modifiers"/>
+		<layout first="194" last="194" mapSet="JIS" modifiers="Modifiers"/>
+		<layout first="197" last="197" mapSet="JIS" modifiers="Modifiers"/>
+		<layout first="200" last="201" mapSet="JIS" modifiers="Modifiers"/>
+		<layout first="206" last="207" mapSet="JIS" modifiers="Modifiers"/>
+	</layouts>
+	<modifierMap id="Modifiers" defaultIndex="0">
+		<keyMapSelect mapIndex="0">
+			<modifier keys=""/>
+			<modifier keys="anyShift? caps? command"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="1">
+			<modifier keys="anyShift caps?"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="2">
+			<modifier keys="caps"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="3">
+			<modifier keys="anyOption"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="4">
+			<modifier keys="anyShift caps? anyOption command?"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="5">
+			<modifier keys="caps anyOption"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="6">
+			<modifier keys="caps? anyOption command"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="7">
+			<modifier keys="anyShift? caps? anyOption? command? anyControl"/>
+		</keyMapSelect>
+	</modifierMap>
+	<keyMapSet id="ANSI">
+		<keyMap index="0">
+			<key code="0" action="a"/>
+			<key code="1" action="s"/>
+			<key code="2" action="d"/>
+			<key code="3" action="f"/>
+			<key code="4" action="h"/>
+			<key code="5" action="g"/>
+			<key code="6" action="z"/>
+			<key code="7" action="x"/>
+			<key code="8" action="c"/>
+			<key code="9" action="v"/>
+			<key code="10" action="apostrof"/>
+			<key code="11" action="b"/>
+			<key code="12" action="q"/>
+			<key code="13" action="w"/>
+			<key code="14" action="e"/>
+			<key code="15" action="r"/>
+			<key code="16" action="y"/>
+			<key code="17" action="t"/>
+			<key code="18" action="1"/>
+			<key code="19" action="2"/>
+			<key code="20" action="3"/>
+			<key code="21" action="4"/>
+			<key code="22" action="6"/>
+			<key code="23" action="5"/>
+			<key code="24" action="akutt"/>
+			<key code="25" action="9"/>
+			<key code="26" action="7"/>
+			<key code="27" action="+"/>
+			<key code="28" output="8"/>
+			<key code="29" action="0"/>
+			<key code="30" action="tøddel"/>
+			<key code="31" action="o"/>
+			<key code="32" action="u"/>
+			<key code="33" action="å"/>
+			<key code="34" action="i"/>
+			<key code="35" action="p"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="l"/>
+			<key code="38" action="j"/>
+			<key code="39" action="æ"/>
+			<key code="40" action="k"/>
+			<key code="41" action="ø"/>
+			<key code="42" action="@"/>
+			<key code="43" output=","/>
+			<key code="44" action="-"/>
+			<key code="45" action="n"/>
+			<key code="46" action="m"/>
+			<key code="47" output="."/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action=" "/>
+			<key code="50" action="tast50"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output=","/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="1">
+			<key code="0" action="A"/>
+			<key code="1" action="S"/>
+			<key code="2" action="D"/>
+			<key code="3" action="F"/>
+			<key code="4" action="H"/>
+			<key code="5" action="G"/>
+			<key code="6" action="Z"/>
+			<key code="7" action="X"/>
+			<key code="8" action="C"/>
+			<key code="9" action="V"/>
+			<key code="10" action="§"/>
+			<key code="11" action="B"/>
+			<key code="12" action="Q"/>
+			<key code="13" action="W"/>
+			<key code="14" action="E"/>
+			<key code="15" action="R"/>
+			<key code="16" action="Y"/>
+			<key code="17" action="T"/>
+			<key code="18" output="!"/>
+			<key code="19" action="&#x0022;"/>
+			<key code="20" output="#"/>
+			<key code="21" output="$"/>
+			<key code="22" output="&#x0026;"/>
+			<key code="23" action="%"/>
+			<key code="24" action="grav"/>
+			<key code="25" output=")"/>
+			<key code="26" output="/"/>
+			<key code="27" action="?"/>
+			<key code="28" output="("/>
+			<key code="29" output="="/>
+			<key code="30" action="cirkumfleks"/>
+			<key code="31" action="O"/>
+			<key code="32" action="U"/>
+			<key code="33" action="Å"/>
+			<key code="34" action="I"/>
+			<key code="35" action="P"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="L"/>
+			<key code="38" action="J"/>
+			<key code="39" action="Æ"/>
+			<key code="40" action="K"/>
+			<key code="41" action="Ø"/>
+			<key code="42" action="*"/>
+			<key code="43" output=";"/>
+			<key code="44" action="_"/>
+			<key code="45" action="N"/>
+			<key code="46" action="M"/>
+			<key code="47" output=":"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action="  1"/>
+			<key code="50" action="tast50shift"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output=","/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="2">
+			<key code="0" action="A 1"/>
+			<key code="1" action="S 1"/>
+			<key code="2" action="D 1"/>
+			<key code="3" action="F 1"/>
+			<key code="4" action="H 1"/>
+			<key code="5" action="G 1"/>
+			<key code="6" action="Z 1"/>
+			<key code="7" action="X 1"/>
+			<key code="8" action="C 1"/>
+			<key code="9" action="V 1"/>
+			<key code="10" action="apostrof 1"/>
+			<key code="11" action="B 1"/>
+			<key code="12" action="Q 1"/>
+			<key code="13" action="W 1"/>
+			<key code="14" action="E 1"/>
+			<key code="15" action="R 1"/>
+			<key code="16" action="Y 1"/>
+			<key code="17" action="T 1"/>
+			<key code="18" action="1 1"/>
+			<key code="19" action="2 1"/>
+			<key code="20" action="3 1"/>
+			<key code="21" action="4 1"/>
+			<key code="22" action="6 1"/>
+			<key code="23" action="5 1"/>
+			<key code="24" action="akutt 1"/>
+			<key code="25" action="9 1"/>
+			<key code="26" action="7 1"/>
+			<key code="27" action="+ 1"/>
+			<key code="28" output="8"/>
+			<key code="29" action="0 1"/>
+			<key code="30" action="tøddel 1"/>
+			<key code="31" action="O 1"/>
+			<key code="32" action="U 1"/>
+			<key code="33" action="Å 1"/>
+			<key code="34" action="I 1"/>
+			<key code="35" action="P 1"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="L 1"/>
+			<key code="38" action="J 1"/>
+			<key code="39" action="Æ 1"/>
+			<key code="40" action="K 1"/>
+			<key code="41" action="Ø 1"/>
+			<key code="42" action="@ 1"/>
+			<key code="43" output=","/>
+			<key code="44" action="- 1"/>
+			<key code="45" action="N 1"/>
+			<key code="46" action="M 1"/>
+			<key code="47" output="."/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action="  2"/>
+			<key code="50" action="tast50caps"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output=","/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="3">
+			<key code="0" action=""/>
+			<key code="1" action="ß"/>
+			<key code="2" action="ð"/>
+			<key code="3" action="ƒ"/>
+			<key code="4" action="kvist"/>
+			<key code="5" action="cedille"/>
+			<key code="6" action="÷"/>
+			<key code="7" output="×"/>
+			<key code="8" action="ç"/>
+			<key code="9" action="‹"/>
+			<key code="10" action="¤"/>
+			<key code="11" output="›"/>
+			<key code="12" action="•"/>
+			<key code="13" output="Ω"/>
+			<key code="14" action="é"/>
+			<key code="15" action="krok"/>
+			<key code="16" action="µ"/>
+			<key code="17" action="þ"/>
+			<key code="18" output="©"/>
+			<key code="19" output="@"/>
+			<key code="20" output="£"/>
+			<key code="21" output="$"/>
+			<key code="22" output="§"/>
+			<key code="23" action="∞"/>
+			<key code="24" action="dobbelakutt"/>
+			<key code="25" output="]"/>
+			<key code="26" output="{"/>
+			<key code="27" action="±"/>
+			<key code="28" output="["/>
+			<key code="29" output="}"/>
+			<key code="30" action="tilde"/>
+			<key code="31" output="œ"/>
+			<key code="32" action="ü"/>
+			<key code="33" action="overprikk"/>
+			<key code="34" action="ı"/>
+			<key code="35" action="π"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="ﬁ"/>
+			<key code="38" action="√"/>
+			<key code="39" action="ä"/>
+			<key code="40" output="ª"/>
+			<key code="41" action="ö"/>
+			<key code="42" action="spesial"/>
+			<key code="43" output="‚"/>
+			<key code="44" action="–"/>
+			<key code="45" action="‘"/>
+			<key code="46" action="’"/>
+			<key code="47" action="…"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action=" "/>
+			<key code="50" action="tast50alt"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output=","/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="4">
+			<key code="0" action="◊"/>
+			<key code="1" action="∑"/>
+			<key code="2" action="Ð 1"/>
+			<key code="3" action="∫"/>
+			<key code="4" action="breve"/>
+			<key code="5" action="makron"/>
+			<key code="6" action="⁄"/>
+			<key code="8" action="Ç"/>
+			<key code="9" output="«"/>
+			<key code="10" action="Ÿ"/>
+			<key code="11" output="»"/>
+			<key code="12" output="°"/>
+			<key code="13" action="gjennomstrek"/>
+			<key code="14" action="É"/>
+			<key code="15" action="horn"/>
+			<key code="16" action="˜"/>
+			<key code="17" action="Þ"/>
+			<key code="18" output="¡"/>
+			<key code="19" output="®"/>
+			<key code="20" output="¥"/>
+			<key code="21" output="¢"/>
+			<key code="22" output="¶"/>
+			<key code="23" action="‰"/>
+			<key code="24" action="komma"/>
+			<key code="25" output="}"/>
+			<key code="26" output="\"/>
+			<key code="27" output="¿"/>
+			<key code="28" output="{"/>
+			<key code="29" output="≠"/>
+			<key code="30" action="hake"/>
+			<key code="31" output="Œ"/>
+			<key code="32" action="Ü"/>
+			<key code="33" action="overring"/>
+			<key code="34" action="İ"/>
+			<key code="35" action="∏"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="ﬂ"/>
+			<key code="38" action="¬"/>
+			<key code="39" action="Ä"/>
+			<key code="40" output="º"/>
+			<key code="41" action="Ö"/>
+			<key code="42" action="underprikk"/>
+			<key code="43" output="„"/>
+			<key code="44" output="—"/>
+			<key code="45" action="“"/>
+			<key code="46" output="”"/>
+			<key code="47" output="·"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action="  2"/>
+			<key code="50" action="tast50altshift"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output=","/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="5">
+			<key code="0" action=" 1"/>
+			<key code="1" action="SS"/>
+			<key code="2" action="Ð"/>
+			<key code="3" output="ƒ"/>
+			<key code="4" action="kvist 1"/>
+			<key code="5" action="cedille 1"/>
+			<key code="6" action="÷ 1"/>
+			<key code="7" output="×"/>
+			<key code="8" action="Ç 1"/>
+			<key code="9" output="‹"/>
+			<key code="10" action="¤ 1"/>
+			<key code="11" output="›"/>
+			<key code="12" action="• 1"/>
+			<key code="13" output="Ω"/>
+			<key code="14" action="É 1"/>
+			<key code="15" action="krok 1"/>
+			<key code="16" action="µ 1"/>
+			<key code="17" action="Þ 1"/>
+			<key code="18" output="©"/>
+			<key code="19" output="™"/>
+			<key code="20" output="£"/>
+			<key code="21" output="€"/>
+			<key code="22" output="§"/>
+			<key code="23" action="∞ 1"/>
+			<key code="24" action="dobbelakutt 1"/>
+			<key code="25" output="]"/>
+			<key code="26" output="|"/>
+			<key code="27" action="± 1"/>
+			<key code="28" output="["/>
+			<key code="29" output="≈"/>
+			<key code="30" action="tilde 1"/>
+			<key code="31" output="Œ"/>
+			<key code="32" action="Ü 1"/>
+			<key code="33" action="overprikk 1"/>
+			<key code="34" action="İ 1"/>
+			<key code="35" action="π 1"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="ﬁ 1"/>
+			<key code="38" action="√ 1"/>
+			<key code="39" action="Ä 1"/>
+			<key code="40" output="ª"/>
+			<key code="41" action="Ö 1"/>
+			<key code="42" action="spesial 1"/>
+			<key code="43" output="‚"/>
+			<key code="44" action="– 1"/>
+			<key code="45" action="‘ 1"/>
+			<key code="46" action="’ 1"/>
+			<key code="47" action="… 1"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action="  1"/>
+			<key code="50" action="tast50capsalt"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output=","/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="6">
+			<key code="0" output=""/>
+			<key code="1" output="ß"/>
+			<key code="2" output="ð"/>
+			<key code="3" output="ƒ"/>
+			<key code="4" output="˛"/>
+			<key code="5" output="¸"/>
+			<key code="6" output="÷"/>
+			<key code="7" output="×"/>
+			<key code="8" output="ç"/>
+			<key code="9" output="‹"/>
+			<key code="10" output="¤"/>
+			<key code="11" output="›"/>
+			<key code="12" output="•"/>
+			<key code="13" output="Ω"/>
+			<key code="14" output="é"/>
+			<key code="16" output="µ"/>
+			<key code="17" output="þ"/>
+			<key code="18" output="©"/>
+			<key code="19" output="™"/>
+			<key code="20" output="£"/>
+			<key code="21" output="€"/>
+			<key code="22" output="§"/>
+			<key code="23" output="∞"/>
+			<key code="24" output="`"/>
+			<key code="25" output="]"/>
+			<key code="26" output="|"/>
+			<key code="27" output="±"/>
+			<key code="28" output="["/>
+			<key code="29" output="≈"/>
+			<key code="30" output="~"/>
+			<key code="31" output="œ"/>
+			<key code="32" output="ü"/>
+			<key code="33" output="˙"/>
+			<key code="34" output="ı"/>
+			<key code="35" output="π"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" output="ﬁ"/>
+			<key code="38" output="√"/>
+			<key code="39" output="ä"/>
+			<key code="40" output="ª"/>
+			<key code="41" output="ö"/>
+			<key code="42" output="¤"/>
+			<key code="43" output="‚"/>
+			<key code="44" output="–"/>
+			<key code="45" output="‘"/>
+			<key code="46" output="’"/>
+			<key code="47" output="…"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" output=" "/>
+			<key code="50" output="&#x003C;"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output=","/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="7">
+			<key code="0" output="&#x0001;"/>
+			<key code="1" output="&#x0013;"/>
+			<key code="2" output="&#x0004;"/>
+			<key code="3" output="&#x0006;"/>
+			<key code="4" output="&#x0008;"/>
+			<key code="5" output="&#x0007;"/>
+			<key code="6" output="&#x001A;"/>
+			<key code="7" output="&#x0018;"/>
+			<key code="8" output="&#x0003;"/>
+			<key code="9" output="&#x0016;"/>
+			<key code="10" output="&#x0027;"/>
+			<key code="11" output="&#x0002;"/>
+			<key code="12" output="&#x0011;"/>
+			<key code="13" output="&#x0017;"/>
+			<key code="14" output="&#x0005;"/>
+			<key code="15" output="&#x0012;"/>
+			<key code="16" output="&#x0019;"/>
+			<key code="17" output="&#x0014;"/>
+			<key code="18" output="1"/>
+			<key code="19" output="2"/>
+			<key code="20" output="3"/>
+			<key code="21" output="4"/>
+			<key code="22" output="&#x001E;"/>
+			<key code="23" output="5"/>
+			<key code="24" output="`"/>
+			<key code="25" output="9"/>
+			<key code="26" output="7"/>
+			<key code="27" output="&#x007F;"/>
+			<key code="28" output="8"/>
+			<key code="29" output="0"/>
+			<key code="30" output="~"/>
+			<key code="31" output="&#x000F;"/>
+			<key code="32" output="&#x0015;"/>
+			<key code="33" output="&#x001D;"/>
+			<key code="34" output="&#x0009;"/>
+			<key code="35" output="&#x0010;"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" output="&#x000C;"/>
+			<key code="38" output="&#x000A;"/>
+			<key code="39" output="&#x001B;"/>
+			<key code="40" output="&#x000B;"/>
+			<key code="41" output="&#x001C;"/>
+			<key code="42" output="@"/>
+			<key code="43" output=","/>
+			<key code="44" output="&#x001F;"/>
+			<key code="45" output="&#x000E;"/>
+			<key code="46" output="&#x000D;"/>
+			<key code="47" output="&#x001E;"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" output=" "/>
+			<key code="50" output="«"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output=","/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+	</keyMapSet>
+	<keyMapSet id="JIS">
+		<keyMap index="0" baseMapSet="ANSI" baseIndex="0">
+			<key code="512" output=""/>
+		</keyMap>
+		<keyMap index="1" baseMapSet="ANSI" baseIndex="1">
+			<key code="512" output=""/>
+		</keyMap>
+		<keyMap index="2" baseMapSet="ANSI" baseIndex="2">
+			<key code="512" output=""/>
+		</keyMap>
+		<keyMap index="3" baseMapSet="ANSI" baseIndex="3">
+			<key code="512" output=""/>
+		</keyMap>
+		<keyMap index="4" baseMapSet="ANSI" baseIndex="4">
+			<key code="512" output=""/>
+		</keyMap>
+		<keyMap index="5" baseMapSet="ANSI" baseIndex="5">
+			<key code="512" output=""/>
+		</keyMap>
+		<keyMap index="6" baseMapSet="ANSI" baseIndex="6">
+			<key code="512" output=""/>
+		</keyMap>
+		<keyMap index="7" baseMapSet="ANSI" baseIndex="7">
+			<key code="512" output=""/>
+		</keyMap>
+	</keyMapSet>
+	<actions>
+		<action id=" ">
+			<when state="none" output=" "/>
+			<when state="akutt" output="´"/>
+			<when state="akutt-overprikk" output="´̇"/>
+			<when state="breve" output="˘"/>
+			<when state="breve-akutt" output="˘́"/>
+			<when state="breve-grav" output="˘̀"/>
+			<when state="breve-krok" output="˘̉"/>
+			<when state="breve-tilde" output="˘̃"/>
+			<when state="breve-underprikk" output=" ̣̆"/>
+			<when state="cedille" output="¸"/>
+			<when state="cedille-breve" output=" ̧̆"/>
+			<when state="cirkumfleks" output="^"/>
+			<when state="cirkumfleks-akutt" output="ˆ́"/>
+			<when state="cirkumfleks-grav" output="ˆ̀"/>
+			<when state="cirkumfleks-krok" output="ˆ̉"/>
+			<when state="cirkumfleks-tilde" output="ˆ̃"/>
+			<when state="cirkumfleks-underprikk" output=" ̣̂"/>
+			<when state="dobbelakutt" output="˝"/>
+			<when state="dobbelgrav" output="˵"/>
+			<when state="gjennomstrek" output="-"/>
+			<when state="grav" output="`"/>
+			<when state="hake" output="ˇ"/>
+			<when state="hake-overprikk" output="ˇ̇"/>
+			<when state="horn" output="ʼ"/>
+			<when state="horn-akutt" output="´ʼ"/>
+			<when state="horn-grav" output="´ʼ"/>
+			<when state="horn-krok" output="ˀʼ"/>
+			<when state="horn-tilde" output="~ʼ"/>
+			<when state="horn-underprikk" output=".ʼ"/>
+			<when state="invertertbreve" output=" ̑"/>
+			<when state="komma" output=","/>
+			<when state="krok" output="ˀ"/>
+			<when state="kvist" output="˛"/>
+			<when state="kvist-makron" output=" ̨̄"/>
+			<when state="makron" output="¯"/>
+			<when state="makron-akutt" output="¯́"/>
+			<when state="makron-grav" output="¯̀"/>
+			<when state="makron-tøddel" output="¯̈"/>
+			<when state="overprikk" output="˙"/>
+			<when state="overprikk-makron" output="˙̄"/>
+			<when state="overring" output="˚"/>
+			<when state="skråstrek" output="/"/>
+			<when state="spesial" output="¤"/>
+			<when state="tilde" output="~"/>
+			<when state="tilde-akutt" output="~́"/>
+			<when state="tilde-makron" output="~̄"/>
+			<when state="tilde-tøddel" output="~̈"/>
+			<when state="tøddel" output="¨"/>
+			<when state="tøddel-akutt" output="΅"/>
+			<when state="tøddel-grav" output="῭"/>
+			<when state="tøddel-hake" output="¨̌"/>
+			<when state="tøddel-makron" output="¨̄"/>
+			<when state="undercirkumfleks" output="ꞈ"/>
+			<when state="underprikk" output="."/>
+			<when state="underprikk-makron" output=" ̣̄"/>
+			<when state="underprikk-overprikk" output=":"/>
+			<when state="underring" output="˳"/>
+			<when state="understrek" output="ˍ"/>
+			<when state="undertilde" output="˷"/>
+			<when state="undertøddel" output=" ̤"/>
+		</action>
+		<action id="  1">
+			<when state="none" output=" "/>
+			<when state="akutt" output="´"/>
+			<when state="akutt-overprikk" output="´̇"/>
+			<when state="breve" output="˘"/>
+			<when state="breve-akutt" output="˘́"/>
+			<when state="breve-grav" output="˘̀"/>
+			<when state="breve-krok" output="˘̉"/>
+			<when state="breve-tilde" output="˘̃"/>
+			<when state="breve-underprikk" output=" ̣̆"/>
+			<when state="cedille" output="¸"/>
+			<when state="cedille-breve" output=" ̧̆"/>
+			<when state="cirkumfleks" output="ˆ"/>
+			<when state="cirkumfleks-akutt" output="ˆ́"/>
+			<when state="cirkumfleks-grav" output="ˆ̀"/>
+			<when state="cirkumfleks-krok" output="ˆ̉"/>
+			<when state="cirkumfleks-tilde" output="ˆ̃"/>
+			<when state="cirkumfleks-underprikk" output=" ̣̂"/>
+			<when state="dobbelakutt" output="˝"/>
+			<when state="dobbelgrav" output="˵"/>
+			<when state="gjennomstrek" output="-"/>
+			<when state="grav" output="`"/>
+			<when state="hake" output="ˇ"/>
+			<when state="hake-overprikk" output="ˇ̇"/>
+			<when state="horn" output="ʼ"/>
+			<when state="horn-akutt" output="´ʼ"/>
+			<when state="horn-grav" output="´ʼ"/>
+			<when state="horn-krok" output="ˀʼ"/>
+			<when state="horn-tilde" output="~ʼ"/>
+			<when state="horn-underprikk" output=".ʼ"/>
+			<when state="invertertbreve" output=" ̑"/>
+			<when state="komma" output=","/>
+			<when state="krok" output="ʔ"/>
+			<when state="kvist" output="˛"/>
+			<when state="kvist-makron" output=" ̨̅"/>
+			<when state="makron" output="‾"/>
+			<when state="makron-akutt" output="‾́"/>
+			<when state="makron-grav" output="‾̀"/>
+			<when state="makron-tøddel" output="‾̈"/>
+			<when state="overprikk" output="˙"/>
+			<when state="overprikk-makron" output="˙̅"/>
+			<when state="overring" output="˚"/>
+			<when state="skråstrek" output="/"/>
+			<when state="spesial" output="␣"/>
+			<when state="tilde" output="˜"/>
+			<when state="tilde-akutt" output="˜́"/>
+			<when state="tilde-makron" output="~̅"/>
+			<when state="tilde-tøddel" output="˜̈"/>
+			<when state="tøddel" output="¨"/>
+			<when state="tøddel-akutt" output="΅"/>
+			<when state="tøddel-grav" output="῭"/>
+			<when state="tøddel-hake" output="¨̌"/>
+			<when state="tøddel-makron" output="¨̄"/>
+			<when state="undercirkumfleks" output="ꞈ"/>
+			<when state="underprikk" output="."/>
+			<when state="underprikk-makron" output=" ̣̅"/>
+			<when state="underprikk-overprikk" output=":"/>
+			<when state="underring" output="˳"/>
+			<when state="understrek" output="ˍ"/>
+			<when state="undertilde" output="˷"/>
+			<when state="undertøddel" output=" ̤"/>
+		</action>
+		<action id="  2">
+			<when state="none" output=" "/>
+			<when state="akutt" output="´"/>
+			<when state="akutt-overprikk" output="´̇"/>
+			<when state="breve" output="˘"/>
+			<when state="breve-akutt" output="˘́"/>
+			<when state="breve-grav" output="˘̀"/>
+			<when state="breve-krok" output="˘̉"/>
+			<when state="breve-tilde" output="˘̃"/>
+			<when state="breve-underprikk" output=" ̣̆"/>
+			<when state="cedille" output="¸"/>
+			<when state="cedille-breve" output=" ̧̆"/>
+			<when state="cirkumfleks" output="^"/>
+			<when state="cirkumfleks-akutt" output="ˆ́"/>
+			<when state="cirkumfleks-grav" output="ˆ̀"/>
+			<when state="cirkumfleks-krok" output="ˆ̉"/>
+			<when state="cirkumfleks-tilde" output="ˆ̃"/>
+			<when state="cirkumfleks-underprikk" output=" ̣̂"/>
+			<when state="dobbelakutt" output="˝"/>
+			<when state="dobbelgrav" output="˵"/>
+			<when state="gjennomstrek" output="-"/>
+			<when state="grav" output="`"/>
+			<when state="hake" output="ˇ"/>
+			<when state="hake-overprikk" output="ˇ̇"/>
+			<when state="horn" output="ʼ"/>
+			<when state="horn-akutt" output="´ʼ"/>
+			<when state="horn-grav" output="´ʼ"/>
+			<when state="horn-krok" output="ˀʼ"/>
+			<when state="horn-tilde" output="~ʼ"/>
+			<when state="horn-underprikk" output=".ʼ"/>
+			<when state="invertertbreve" output=" ̑"/>
+			<when state="komma" output=","/>
+			<when state="krok" output="ˀ"/>
+			<when state="kvist" output="˛"/>
+			<when state="kvist-makron" output=" ̨̄"/>
+			<when state="makron" output="¯"/>
+			<when state="makron-akutt" output="¯́"/>
+			<when state="makron-grav" output="¯̀"/>
+			<when state="makron-tøddel" output="¯̈"/>
+			<when state="overprikk" output="˙"/>
+			<when state="overprikk-makron" output="˙̄"/>
+			<when state="overring" output="˚"/>
+			<when state="skråstrek" output="/"/>
+			<when state="spesial" output="¤"/>
+			<when state="tilde" output="~"/>
+			<when state="tilde-akutt" output="~́"/>
+			<when state="tilde-makron" output="~̄"/>
+			<when state="tilde-tøddel" output="~̈"/>
+			<when state="tøddel" output="¨"/>
+			<when state="tøddel-akutt" output="΅"/>
+			<when state="tøddel-grav" output="῭"/>
+			<when state="tøddel-hake" output="¨̌"/>
+			<when state="tøddel-makron" output="¨̄"/>
+			<when state="undercirkumfleks" output="ꞈ"/>
+			<when state="underprikk" output="."/>
+			<when state="underprikk-makron" output=" ̣̄"/>
+			<when state="underprikk-overprikk" output=":"/>
+			<when state="underring" output="˳"/>
+			<when state="understrek" output="ˍ"/>
+			<when state="undertilde" output="˷"/>
+			<when state="undertøddel" output=" ̤"/>
+		</action>
+		<action id="&#x0022;">
+			<when state="none" output="&#x0022;"/>
+			<when state="spesial" output="″"/>
+		</action>
+		<action id="%">
+			<when state="none" output="%"/>
+			<when state="spesial" output="‱"/>
+		</action>
+		<action id="*">
+			<when state="none" output="*"/>
+			<when state="spesial" output="Ɑ"/>
+		</action>
+		<action id="+">
+			<when state="none" output="+"/>
+			<when state="krok" output="ɂ"/>
+			<when state="makron" output="∓"/>
+			<when state="spesial" output="↑"/>
+		</action>
+		<action id="+ 1">
+			<when state="none" output="+"/>
+			<when state="krok" output="Ɂ"/>
+			<when state="makron" output="∓"/>
+			<when state="spesial" output="↑"/>
+		</action>
+		<action id="-">
+			<when state="none" output="-"/>
+			<when state="gjennomstrek" output="‐"/>
+			<when state="spesial" output="−"/>
+		</action>
+		<action id="- 1">
+			<when state="none" output="-"/>
+			<when state="gjennomstrek" output="‐"/>
+			<when state="spesial" output="−"/>
+		</action>
+		<action id="0">
+			<when state="none" output="0"/>
+			<when state="spesial" output="∅"/>
+		</action>
+		<action id="0 1">
+			<when state="none" output="0"/>
+			<when state="spesial" output="∅"/>
+		</action>
+		<action id="1">
+			<when state="none" output="1"/>
+			<when state="spesial" output="¹"/>
+		</action>
+		<action id="1 1">
+			<when state="none" output="1"/>
+			<when state="spesial" output="¹"/>
+		</action>
+		<action id="2">
+			<when state="none" output="2"/>
+			<when state="spesial" output="²"/>
+		</action>
+		<action id="2 1">
+			<when state="none" output="2"/>
+			<when state="spesial" output="²"/>
+		</action>
+		<action id="3">
+			<when state="none" output="3"/>
+			<when state="spesial" output="³"/>
+		</action>
+		<action id="3 1">
+			<when state="none" output="3"/>
+			<when state="spesial" output="³"/>
+		</action>
+		<action id="4">
+			<when state="none" output="4"/>
+			<when state="spesial" output="½"/>
+		</action>
+		<action id="4 1">
+			<when state="none" output="4"/>
+			<when state="spesial" output="½"/>
+		</action>
+		<action id="5">
+			<when state="none" output="5"/>
+			<when state="spesial" output="¼"/>
+		</action>
+		<action id="5 1">
+			<when state="none" output="5"/>
+			<when state="spesial" output="¼"/>
+		</action>
+		<action id="6">
+			<when state="none" output="6"/>
+			<when state="spesial" output="¾"/>
+		</action>
+		<action id="6 1">
+			<when state="none" output="6"/>
+			<when state="spesial" output="¾"/>
+		</action>
+		<action id="7">
+			<when state="none" output="7"/>
+			<when state="spesial" output="¦"/>
+		</action>
+		<action id="7 1">
+			<when state="none" output="7"/>
+			<when state="spesial" output="¦"/>
+		</action>
+		<action id="9">
+			<when state="none" output="9"/>
+			<when state="spesial" output="№"/>
+		</action>
+		<action id="9 1">
+			<when state="none" output="9"/>
+			<when state="spesial" output="№"/>
+		</action>
+		<action id="?">
+			<when state="none" output="?"/>
+			<when state="krok" output="Ɂ"/>
+			<when state="spesial" output="⇞"/>
+		</action>
+		<action id="@">
+			<when state="none" output="&#x0027;"/>
+			<when state="spesial" output="ɑ"/>
+		</action>
+		<action id="@ 1">
+			<when state="none" output="@"/>
+			<when state="spesial" output="Ɑ"/>
+		</action>
+		<action id="A">
+			<when state="none" output="A"/>
+			<when state="akutt" output="Á"/>
+			<when state="breve" output="Ă"/>
+			<when state="breve-akutt" output="Ắ"/>
+			<when state="breve-grav" output="Ằ"/>
+			<when state="breve-krok" output="Ẳ"/>
+			<when state="breve-tilde" output="Ẵ"/>
+			<when state="breve-underprikk" output="Ặ"/>
+			<when state="cirkumfleks" output="Â"/>
+			<when state="cirkumfleks-akutt" output="Ấ"/>
+			<when state="cirkumfleks-grav" output="Ầ"/>
+			<when state="cirkumfleks-krok" output="Ẩ"/>
+			<when state="cirkumfleks-tilde" output="Ẫ"/>
+			<when state="cirkumfleks-underprikk" output="Ậ"/>
+			<when state="dobbelgrav" output="Ȁ"/>
+			<when state="grav" output="À"/>
+			<when state="hake" output="Ǎ"/>
+			<when state="invertertbreve" output="Ȃ"/>
+			<when state="krok" output="Ả"/>
+			<when state="kvist" output="Ą"/>
+			<when state="makron" output="Ā"/>
+			<when state="overprikk" output="Ȧ"/>
+			<when state="overprikk-makron" output="Ǡ"/>
+			<when state="overring" output="Å"/>
+			<when state="skråstrek" output="Ⱥ"/>
+			<when state="spesial" output="⇧"/>
+			<when state="tilde" output="Ã"/>
+			<when state="tøddel" output="Ä"/>
+			<when state="tøddel-makron" output="Ǟ"/>
+			<when state="underprikk" output="Ạ"/>
+			<when state="underring" output="Ḁ"/>
+		</action>
+		<action id="A 1">
+			<when state="none" output="A"/>
+			<when state="akutt" output="Á"/>
+			<when state="breve" output="Ă"/>
+			<when state="breve-akutt" output="Ắ"/>
+			<when state="breve-grav" output="Ằ"/>
+			<when state="breve-krok" output="Ẳ"/>
+			<when state="breve-tilde" output="Ẵ"/>
+			<when state="breve-underprikk" output="Ặ"/>
+			<when state="cirkumfleks" output="Â"/>
+			<when state="cirkumfleks-akutt" output="Ấ"/>
+			<when state="cirkumfleks-grav" output="Ầ"/>
+			<when state="cirkumfleks-krok" output="Ẩ"/>
+			<when state="cirkumfleks-tilde" output="Ẫ"/>
+			<when state="cirkumfleks-underprikk" output="Ậ"/>
+			<when state="dobbelgrav" output="Ȁ"/>
+			<when state="grav" output="À"/>
+			<when state="hake" output="Ǎ"/>
+			<when state="invertertbreve" output="Ȃ"/>
+			<when state="krok" output="Ả"/>
+			<when state="kvist" output="Ą"/>
+			<when state="makron" output="Ā"/>
+			<when state="overprikk" output="Ȧ"/>
+			<when state="overprikk-makron" output="Ǡ"/>
+			<when state="overring" output="Å"/>
+			<when state="skråstrek" output="Ⱥ"/>
+			<when state="spesial" output="⌘"/>
+			<when state="tilde" output="Ã"/>
+			<when state="tøddel" output="Ä"/>
+			<when state="tøddel-makron" output="Ǟ"/>
+			<when state="underprikk" output="Ạ"/>
+			<when state="underring" output="Ḁ"/>
+		</action>
+		<action id="B">
+			<when state="none" output="B"/>
+			<when state="gjennomstrek" output="Ƀ"/>
+			<when state="krok" output="Ɓ"/>
+			<when state="overprikk" output="Ḃ"/>
+			<when state="underprikk" output="Ḅ"/>
+			<when state="understrek" output="Ḇ"/>
+		</action>
+		<action id="B 1">
+			<when state="none" output="B"/>
+			<when state="gjennomstrek" output="Ƀ"/>
+			<when state="krok" output="Ɓ"/>
+			<when state="overprikk" output="Ḃ"/>
+			<when state="underprikk" output="Ḅ"/>
+			<when state="understrek" output="Ḇ"/>
+		</action>
+		<action id="C">
+			<when state="none" output="C"/>
+			<when state="akutt" output="Ć"/>
+			<when state="cedille" output="Ç"/>
+			<when state="cirkumfleks" output="Ĉ"/>
+			<when state="gjennomstrek" output="Ꞓ"/>
+			<when state="hake" output="Č"/>
+			<when state="krok" output="Ƈ"/>
+			<when state="overprikk" output="Ċ"/>
+			<when state="skråstrek" output="Ȼ"/>
+		</action>
+		<action id="C 1">
+			<when state="none" output="C"/>
+			<when state="akutt" output="Ć"/>
+			<when state="cedille" output="Ç"/>
+			<when state="cirkumfleks" output="Ĉ"/>
+			<when state="gjennomstrek" output="Ꞓ"/>
+			<when state="hake" output="Č"/>
+			<when state="krok" output="Ƈ"/>
+			<when state="overprikk" output="Ċ"/>
+			<when state="skråstrek" output="Ȼ"/>
+		</action>
+		<action id="D">
+			<when state="none" output="D"/>
+			<when state="cedille" output="Ḑ"/>
+			<when state="gjennomstrek" output="Đ"/>
+			<when state="hake" output="Ď"/>
+			<when state="komma" output="Ḑ"/>
+			<when state="krok" output="Ɗ"/>
+			<when state="overprikk" output="Ḋ"/>
+			<when state="spesial" output="∆"/>
+			<when state="undercirkumfleks" output="Ḓ"/>
+			<when state="underprikk" output="Ḍ"/>
+			<when state="understrek" output="Ḏ"/>
+		</action>
+		<action id="D 1">
+			<when state="none" output="D"/>
+			<when state="cedille" output="Ḑ"/>
+			<when state="gjennomstrek" output="Đ"/>
+			<when state="hake" output="Ď"/>
+			<when state="komma" output="Ḑ"/>
+			<when state="krok" output="Ɗ"/>
+			<when state="overprikk" output="Ḋ"/>
+			<when state="spesial" output="∂"/>
+			<when state="undercirkumfleks" output="Ḓ"/>
+			<when state="underprikk" output="Ḍ"/>
+			<when state="understrek" output="Ḏ"/>
+		</action>
+		<action id="E">
+			<when state="none" output="E"/>
+			<when state="akutt" output="É"/>
+			<when state="breve" output="Ĕ"/>
+			<when state="cedille" output="Ȩ"/>
+			<when state="cedille-breve" output="Ḝ"/>
+			<when state="cirkumfleks" output="Ê"/>
+			<when state="cirkumfleks-akutt" output="Ế"/>
+			<when state="cirkumfleks-grav" output="Ề"/>
+			<when state="cirkumfleks-krok" output="Ể"/>
+			<when state="cirkumfleks-tilde" output="Ễ"/>
+			<when state="cirkumfleks-underprikk" output="Ệ"/>
+			<when state="dobbelgrav" output="Ȅ"/>
+			<when state="grav" output="È"/>
+			<when state="hake" output="Ě"/>
+			<when state="invertertbreve" output="Ȇ"/>
+			<when state="krok" output="Ẻ"/>
+			<when state="kvist" output="Ę"/>
+			<when state="makron" output="Ē"/>
+			<when state="makron-akutt" output="Ḗ"/>
+			<when state="makron-grav" output="Ḕ"/>
+			<when state="overprikk" output="Ė"/>
+			<when state="skråstrek" output="Ɇ"/>
+			<when state="spesial" output="Ɛ"/>
+			<when state="tilde" output="Ẽ"/>
+			<when state="tøddel" output="Ë"/>
+			<when state="undercirkumfleks" output="Ḙ"/>
+			<when state="underprikk" output="Ẹ"/>
+			<when state="undertilde" output="Ḛ"/>
+		</action>
+		<action id="E 1">
+			<when state="none" output="E"/>
+			<when state="akutt" output="É"/>
+			<when state="breve" output="Ĕ"/>
+			<when state="cedille" output="Ȩ"/>
+			<when state="cedille-breve" output="Ḝ"/>
+			<when state="cirkumfleks" output="Ê"/>
+			<when state="cirkumfleks-akutt" output="Ế"/>
+			<when state="cirkumfleks-grav" output="Ề"/>
+			<when state="cirkumfleks-krok" output="Ể"/>
+			<when state="cirkumfleks-tilde" output="Ễ"/>
+			<when state="cirkumfleks-underprikk" output="Ệ"/>
+			<when state="dobbelgrav" output="Ȅ"/>
+			<when state="grav" output="È"/>
+			<when state="hake" output="Ě"/>
+			<when state="invertertbreve" output="Ȇ"/>
+			<when state="krok" output="Ẻ"/>
+			<when state="kvist" output="Ę"/>
+			<when state="makron" output="Ē"/>
+			<when state="makron-akutt" output="Ḗ"/>
+			<when state="makron-grav" output="Ḕ"/>
+			<when state="overprikk" output="Ė"/>
+			<when state="skråstrek" output="Ɇ"/>
+			<when state="spesial" output="Ɛ"/>
+			<when state="tilde" output="Ẽ"/>
+			<when state="tøddel" output="Ë"/>
+			<when state="undercirkumfleks" output="Ḙ"/>
+			<when state="underprikk" output="Ẹ"/>
+			<when state="undertilde" output="Ḛ"/>
+		</action>
+		<action id="F">
+			<when state="none" output="F"/>
+			<when state="hake" output="Ǆ"/>
+			<when state="krok" output="Ƒ"/>
+			<when state="overprikk" output="Ḟ"/>
+			<when state="spesial" output="Ǳ"/>
+		</action>
+		<action id="F 1">
+			<when state="none" output="F"/>
+			<when state="hake" output="Ǆ"/>
+			<when state="krok" output="Ƒ"/>
+			<when state="overprikk" output="Ḟ"/>
+			<when state="spesial" output="Ǳ"/>
+		</action>
+		<action id="G">
+			<when state="none" output="G"/>
+			<when state="akutt" output="Ǵ"/>
+			<when state="breve" output="Ğ"/>
+			<when state="cedille" output="Ģ"/>
+			<when state="cirkumfleks" output="Ĝ"/>
+			<when state="gjennomstrek" output="Ǥ"/>
+			<when state="hake" output="Ǧ"/>
+			<when state="komma" output="Ģ"/>
+			<when state="krok" output="Ɠ"/>
+			<when state="makron" output="Ḡ"/>
+			<when state="overprikk" output="Ġ"/>
+			<when state="spesial" output="Ɣ"/>
+		</action>
+		<action id="G 1">
+			<when state="none" output="G"/>
+			<when state="akutt" output="Ǵ"/>
+			<when state="breve" output="Ğ"/>
+			<when state="cedille" output="Ģ"/>
+			<when state="cirkumfleks" output="Ĝ"/>
+			<when state="gjennomstrek" output="Ǥ"/>
+			<when state="hake" output="Ǧ"/>
+			<when state="komma" output="Ģ"/>
+			<when state="krok" output="Ɠ"/>
+			<when state="makron" output="Ḡ"/>
+			<when state="overprikk" output="Ġ"/>
+			<when state="spesial" output="Ɣ"/>
+		</action>
+		<action id="H">
+			<when state="none" output="H"/>
+			<when state="breve" output="Ḫ"/>
+			<when state="cedille" output="Ḩ"/>
+			<when state="cirkumfleks" output="Ĥ"/>
+			<when state="gjennomstrek" output="Ħ"/>
+			<when state="hake" output="Ȟ"/>
+			<when state="krok" output="Ɦ"/>
+			<when state="overprikk" output="Ḣ"/>
+			<when state="spesial" output="Ƕ"/>
+			<when state="tøddel" output="Ḧ"/>
+			<when state="underprikk" output="Ḥ"/>
+		</action>
+		<action id="H 1">
+			<when state="none" output="H"/>
+			<when state="breve" output="Ḫ"/>
+			<when state="cedille" output="Ḩ"/>
+			<when state="cirkumfleks" output="Ĥ"/>
+			<when state="gjennomstrek" output="Ħ"/>
+			<when state="hake" output="Ȟ"/>
+			<when state="krok" output="Ɦ"/>
+			<when state="overprikk" output="Ḣ"/>
+			<when state="spesial" output="Ƕ"/>
+			<when state="tøddel" output="Ḧ"/>
+			<when state="underprikk" output="Ḥ"/>
+		</action>
+		<action id="I">
+			<when state="none" output="I"/>
+			<when state="akutt" output="Í"/>
+			<when state="breve" output="Ĭ"/>
+			<when state="cirkumfleks" output="Î"/>
+			<when state="dobbelgrav" output="Ȉ"/>
+			<when state="gjennomstrek" output="Ɨ"/>
+			<when state="grav" output="Ì"/>
+			<when state="hake" output="Ǐ"/>
+			<when state="invertertbreve" output="Ȋ"/>
+			<when state="krok" output="Ỉ"/>
+			<when state="kvist" output="Į"/>
+			<when state="makron" output="Ī"/>
+			<when state="overprikk" output="İ"/>
+			<when state="spesial" output="Ĳ"/>
+			<when state="tilde" output="Ĩ"/>
+			<when state="tøddel" output="Ï"/>
+			<when state="tøddel-akutt" output="Ḯ"/>
+			<when state="underprikk" output="Ị"/>
+			<when state="undertilde" output="Ḭ"/>
+		</action>
+		<action id="I 1">
+			<when state="none" output="I"/>
+			<when state="akutt" output="Í"/>
+			<when state="breve" output="Ĭ"/>
+			<when state="cirkumfleks" output="Î"/>
+			<when state="dobbelgrav" output="Ȉ"/>
+			<when state="gjennomstrek" output="Ɨ"/>
+			<when state="grav" output="Ì"/>
+			<when state="hake" output="Ǐ"/>
+			<when state="invertertbreve" output="Ȋ"/>
+			<when state="krok" output="Ỉ"/>
+			<when state="kvist" output="Į"/>
+			<when state="makron" output="Ī"/>
+			<when state="overprikk" output="İ"/>
+			<when state="spesial" output="Ĳ"/>
+			<when state="tilde" output="Ĩ"/>
+			<when state="tøddel" output="Ï"/>
+			<when state="tøddel-akutt" output="Ḯ"/>
+			<when state="underprikk" output="Ị"/>
+			<when state="undertilde" output="Ḭ"/>
+		</action>
+		<action id="J">
+			<when state="none" output="J"/>
+			<when state="cirkumfleks" output="Ĵ"/>
+			<when state="gjennomstrek" output="Ɉ"/>
+			<when state="spesial" output="Ȝ"/>
+		</action>
+		<action id="J 1">
+			<when state="none" output="J"/>
+			<when state="cirkumfleks" output="Ĵ"/>
+			<when state="gjennomstrek" output="Ɉ"/>
+			<when state="spesial" output="Ȝ"/>
+		</action>
+		<action id="K">
+			<when state="none" output="K"/>
+			<when state="akutt" output="Ḱ"/>
+			<when state="cedille" output="Ķ"/>
+			<when state="gjennomstrek" output="Ꝁ"/>
+			<when state="hake" output="Ǩ"/>
+			<when state="komma" output="Ķ"/>
+			<when state="krok" output="Ƙ"/>
+			<when state="skråstrek" output="Ꝃ"/>
+			<when state="underprikk" output="Ḳ"/>
+			<when state="understrek" output="Ḵ"/>
+		</action>
+		<action id="K 1">
+			<when state="none" output="K"/>
+			<when state="akutt" output="Ḱ"/>
+			<when state="cedille" output="Ķ"/>
+			<when state="gjennomstrek" output="Ꝁ"/>
+			<when state="hake" output="Ǩ"/>
+			<when state="komma" output="Ķ"/>
+			<when state="krok" output="Ƙ"/>
+			<when state="skråstrek" output="Ꝃ"/>
+			<when state="underprikk" output="Ḳ"/>
+			<when state="understrek" output="Ḵ"/>
+		</action>
+		<action id="L">
+			<when state="none" output="L"/>
+			<when state="akutt" output="Ĺ"/>
+			<when state="cedille" output="Ļ"/>
+			<when state="gjennomstrek" output="Ł"/>
+			<when state="hake" output="Ľ"/>
+			<when state="komma" output="Ļ"/>
+			<when state="overprikk" output="Ŀ"/>
+			<when state="spesial" output="Ǉ"/>
+			<when state="tilde" output="Ɫ"/>
+			<when state="undercirkumfleks" output="Ḽ"/>
+			<when state="underprikk" output="Ḷ"/>
+			<when state="underprikk-makron" output="Ḹ"/>
+			<when state="understrek" output="Ḻ"/>
+		</action>
+		<action id="L 1">
+			<when state="none" output="L"/>
+			<when state="akutt" output="Ĺ"/>
+			<when state="cedille" output="Ļ"/>
+			<when state="gjennomstrek" output="Ł"/>
+			<when state="hake" output="Ľ"/>
+			<when state="komma" output="Ļ"/>
+			<when state="overprikk" output="Ŀ"/>
+			<when state="spesial" output="Ǉ"/>
+			<when state="tilde" output="Ɫ"/>
+			<when state="undercirkumfleks" output="Ḽ"/>
+			<when state="underprikk" output="Ḷ"/>
+			<when state="underprikk-makron" output="Ḹ"/>
+			<when state="understrek" output="Ḻ"/>
+		</action>
+		<action id="M">
+			<when state="none" output="M"/>
+			<when state="akutt" output="Ḿ"/>
+			<when state="krok" output="Ɱ"/>
+			<when state="overprikk" output="Ṁ"/>
+			<when state="underprikk" output="Ṃ"/>
+		</action>
+		<action id="M 1">
+			<when state="none" output="M"/>
+			<when state="akutt" output="Ḿ"/>
+			<when state="krok" output="Ɱ"/>
+			<when state="overprikk" output="Ṁ"/>
+			<when state="underprikk" output="Ṃ"/>
+		</action>
+		<action id="N">
+			<when state="none" output="N"/>
+			<when state="akutt" output="Ń"/>
+			<when state="cedille" output="Ņ"/>
+			<when state="grav" output="Ǹ"/>
+			<when state="hake" output="Ň"/>
+			<when state="komma" output="Ņ"/>
+			<when state="krok" output="Ɲ"/>
+			<when state="kvist" output="Ŋ"/>
+			<when state="overprikk" output="Ṅ"/>
+			<when state="spesial" output="Ǌ"/>
+			<when state="tilde" output="Ñ"/>
+			<when state="undercirkumfleks" output="Ṋ"/>
+			<when state="underprikk" output="Ṇ"/>
+			<when state="understrek" output="Ṉ"/>
+		</action>
+		<action id="N 1">
+			<when state="none" output="N"/>
+			<when state="akutt" output="Ń"/>
+			<when state="cedille" output="Ņ"/>
+			<when state="grav" output="Ǹ"/>
+			<when state="hake" output="Ň"/>
+			<when state="komma" output="Ņ"/>
+			<when state="krok" output="Ɲ"/>
+			<when state="kvist" output="Ŋ"/>
+			<when state="overprikk" output="Ṅ"/>
+			<when state="spesial" output="Ǌ"/>
+			<when state="tilde" output="Ñ"/>
+			<when state="undercirkumfleks" output="Ṋ"/>
+			<when state="underprikk" output="Ṇ"/>
+			<when state="understrek" output="Ṉ"/>
+		</action>
+		<action id="O">
+			<when state="none" output="O"/>
+			<when state="akutt" output="Ó"/>
+			<when state="breve" output="Ŏ"/>
+			<when state="cirkumfleks" output="Ô"/>
+			<when state="cirkumfleks-akutt" output="Ố"/>
+			<when state="cirkumfleks-grav" output="Ồ"/>
+			<when state="cirkumfleks-krok" output="Ổ"/>
+			<when state="cirkumfleks-tilde" output="Ỗ"/>
+			<when state="cirkumfleks-underprikk" output="Ộ"/>
+			<when state="dobbelakutt" output="Ő"/>
+			<when state="dobbelgrav" output="Ȍ"/>
+			<when state="gjennomstrek" output="Ɵ"/>
+			<when state="grav" output="Ò"/>
+			<when state="hake" output="Ǒ"/>
+			<when state="horn" output="Ơ"/>
+			<when state="horn-akutt" output="Ớ"/>
+			<when state="horn-grav" output="Ờ"/>
+			<when state="horn-krok" output="Ở"/>
+			<when state="horn-tilde" output="Ỡ"/>
+			<when state="horn-underprikk" output="Ợ"/>
+			<when state="invertertbreve" output="Ȏ"/>
+			<when state="krok" output="Ỏ"/>
+			<when state="kvist" output="Ǫ"/>
+			<when state="kvist-makron" output="Ǭ"/>
+			<when state="makron" output="Ō"/>
+			<when state="makron-akutt" output="Ṓ"/>
+			<when state="makron-grav" output="Ṑ"/>
+			<when state="overprikk" output="Ȯ"/>
+			<when state="overprikk-makron" output="Ȱ"/>
+			<when state="skråstrek" output="Ø"/>
+			<when state="spesial" output="Ɔ"/>
+			<when state="tilde" output="Õ"/>
+			<when state="tilde-akutt" output="Ṍ"/>
+			<when state="tilde-makron" output="Ȭ"/>
+			<when state="tilde-tøddel" output="Ṏ"/>
+			<when state="tøddel" output="Ö"/>
+			<when state="tøddel-makron" output="Ȫ"/>
+			<when state="underprikk" output="Ọ"/>
+		</action>
+		<action id="O 1">
+			<when state="none" output="O"/>
+			<when state="akutt" output="Ó"/>
+			<when state="breve" output="Ŏ"/>
+			<when state="cirkumfleks" output="Ô"/>
+			<when state="cirkumfleks-akutt" output="Ố"/>
+			<when state="cirkumfleks-grav" output="Ồ"/>
+			<when state="cirkumfleks-krok" output="Ổ"/>
+			<when state="cirkumfleks-tilde" output="Ỗ"/>
+			<when state="cirkumfleks-underprikk" output="Ộ"/>
+			<when state="dobbelakutt" output="Ő"/>
+			<when state="dobbelgrav" output="Ȍ"/>
+			<when state="gjennomstrek" output="Ɵ"/>
+			<when state="grav" output="Ò"/>
+			<when state="hake" output="Ǒ"/>
+			<when state="horn" output="Ơ"/>
+			<when state="horn-akutt" output="Ớ"/>
+			<when state="horn-grav" output="Ờ"/>
+			<when state="horn-krok" output="Ở"/>
+			<when state="horn-tilde" output="Ỡ"/>
+			<when state="horn-underprikk" output="Ợ"/>
+			<when state="invertertbreve" output="Ȏ"/>
+			<when state="krok" output="Ỏ"/>
+			<when state="kvist" output="Ǫ"/>
+			<when state="kvist-makron" output="Ǭ"/>
+			<when state="makron" output="Ō"/>
+			<when state="makron-akutt" output="Ṓ"/>
+			<when state="makron-grav" output="Ṑ"/>
+			<when state="overprikk" output="Ȯ"/>
+			<when state="overprikk-makron" output="Ȱ"/>
+			<when state="skråstrek" output="Ø"/>
+			<when state="spesial" output="Ɔ"/>
+			<when state="tilde" output="Õ"/>
+			<when state="tilde-akutt" output="Ṍ"/>
+			<when state="tilde-makron" output="Ȭ"/>
+			<when state="tilde-tøddel" output="Ṏ"/>
+			<when state="tøddel" output="Ö"/>
+			<when state="tøddel-makron" output="Ȫ"/>
+			<when state="underprikk" output="Ọ"/>
+		</action>
+		<action id="P">
+			<when state="none" output="P"/>
+			<when state="akutt" output="Ṕ"/>
+			<when state="gjennomstrek" output="Ᵽ"/>
+			<when state="krok" output="Ƥ"/>
+			<when state="overprikk" output="Ṗ"/>
+			<when state="spesial" output="↖"/>
+		</action>
+		<action id="P 1">
+			<when state="none" output="P"/>
+			<when state="akutt" output="Ṕ"/>
+			<when state="gjennomstrek" output="Ᵽ"/>
+			<when state="krok" output="Ƥ"/>
+			<when state="overprikk" output="Ṗ"/>
+			<when state="spesial" output="←"/>
+		</action>
+		<action id="Q">
+			<when state="none" output="Q"/>
+			<when state="gjennomstrek" output="Ꝗ"/>
+			<when state="skråstrek" output="Ꝙ"/>
+		</action>
+		<action id="Q 1">
+			<when state="none" output="Q"/>
+			<when state="gjennomstrek" output="Ꝗ"/>
+			<when state="skråstrek" output="Ꝙ"/>
+		</action>
+		<action id="R">
+			<when state="none" output="R"/>
+			<when state="akutt" output="Ŕ"/>
+			<when state="cedille" output="Ŗ"/>
+			<when state="dobbelgrav" output="Ȑ"/>
+			<when state="gjennomstrek" output="Ɍ"/>
+			<when state="hake" output="Ř"/>
+			<when state="invertertbreve" output="Ȓ"/>
+			<when state="komma" output="Ŗ"/>
+			<when state="krok" output="Ɽ"/>
+			<when state="overprikk" output="Ṙ"/>
+			<when state="spesial" output="Ʀ"/>
+			<when state="underprikk" output="Ṛ"/>
+			<when state="underprikk-makron" output="Ṝ"/>
+			<when state="understrek" output="Ṟ"/>
+		</action>
+		<action id="R 1">
+			<when state="none" output="R"/>
+			<when state="akutt" output="Ŕ"/>
+			<when state="cedille" output="Ŗ"/>
+			<when state="dobbelgrav" output="Ȑ"/>
+			<when state="gjennomstrek" output="Ɍ"/>
+			<when state="hake" output="Ř"/>
+			<when state="invertertbreve" output="Ȓ"/>
+			<when state="komma" output="Ŗ"/>
+			<when state="krok" output="Ɽ"/>
+			<when state="overprikk" output="Ṙ"/>
+			<when state="spesial" output="Ʀ"/>
+			<when state="underprikk" output="Ṛ"/>
+			<when state="underprikk-makron" output="Ṝ"/>
+			<when state="understrek" output="Ṟ"/>
+		</action>
+		<action id="S">
+			<when state="none" output="S"/>
+			<when state="akutt" output="Ś"/>
+			<when state="akutt-overprikk" output="Ṥ"/>
+			<when state="cedille" output="Ş"/>
+			<when state="cirkumfleks" output="Ŝ"/>
+			<when state="hake" output="Š"/>
+			<when state="hake-overprikk" output="Ṧ"/>
+			<when state="komma" output="Ș"/>
+			<when state="krok" output="Ʃ"/>
+			<when state="overprikk" output="Ṡ"/>
+			<when state="spesial" output="⌃"/>
+			<when state="underprikk" output="Ṣ"/>
+			<when state="underprikk-overprikk" output="Ṩ"/>
+		</action>
+		<action id="S 1">
+			<when state="none" output="S"/>
+			<when state="akutt" output="Ś"/>
+			<when state="akutt-overprikk" output="Ṥ"/>
+			<when state="cedille" output="Ş"/>
+			<when state="cirkumfleks" output="Ŝ"/>
+			<when state="hake" output="Š"/>
+			<when state="hake-overprikk" output="Ṧ"/>
+			<when state="komma" output="Ș"/>
+			<when state="krok" output="Ʃ"/>
+			<when state="overprikk" output="Ṡ"/>
+			<when state="spesial" output="ẞ"/>
+			<when state="underprikk" output="Ṣ"/>
+			<when state="underprikk-overprikk" output="Ṩ"/>
+		</action>
+		<action id="SS">
+			<when state="none" output="SS"/>
+			<when state="overprikk" output="Ṡ"/>
+			<when state="spesial" output="⌤"/>
+		</action>
+		<action id="T">
+			<when state="none" output="T"/>
+			<when state="cedille" output="Ţ"/>
+			<when state="gjennomstrek" output="Ŧ"/>
+			<when state="hake" output="Ť"/>
+			<when state="komma" output="Ț"/>
+			<when state="krok" output="Ƭ"/>
+			<when state="overprikk" output="Ṫ"/>
+			<when state="skråstrek" output="Ⱦ"/>
+			<when state="spesial" output="‡"/>
+			<when state="undercirkumfleks" output="Ṱ"/>
+			<when state="underprikk" output="Ṭ"/>
+			<when state="understrek" output="Ṯ"/>
+		</action>
+		<action id="T 1">
+			<when state="none" output="T"/>
+			<when state="cedille" output="Ţ"/>
+			<when state="gjennomstrek" output="Ŧ"/>
+			<when state="hake" output="Ť"/>
+			<when state="komma" output="Ț"/>
+			<when state="krok" output="Ƭ"/>
+			<when state="overprikk" output="Ṫ"/>
+			<when state="skråstrek" output="Ⱦ"/>
+			<when state="spesial" output="†"/>
+			<when state="undercirkumfleks" output="Ṱ"/>
+			<when state="underprikk" output="Ṭ"/>
+			<when state="understrek" output="Ṯ"/>
+		</action>
+		<action id="U">
+			<when state="none" output="U"/>
+			<when state="akutt" output="Ú"/>
+			<when state="breve" output="Ŭ"/>
+			<when state="cirkumfleks" output="Û"/>
+			<when state="dobbelakutt" output="Ű"/>
+			<when state="dobbelgrav" output="Ȕ"/>
+			<when state="gjennomstrek" output="Ʉ"/>
+			<when state="grav" output="Ù"/>
+			<when state="hake" output="Ǔ"/>
+			<when state="horn" output="Ư"/>
+			<when state="horn-akutt" output="Ứ"/>
+			<when state="horn-grav" output="Ừ"/>
+			<when state="horn-krok" output="Ử"/>
+			<when state="horn-tilde" output="Ữ"/>
+			<when state="horn-underprikk" output="Ự"/>
+			<when state="invertertbreve" output="Ȗ"/>
+			<when state="krok" output="Ủ"/>
+			<when state="kvist" output="Ų"/>
+			<when state="makron" output="Ū"/>
+			<when state="makron-tøddel" output="Ṻ"/>
+			<when state="overring" output="Ů"/>
+			<when state="spesial" output="Ʊ"/>
+			<when state="tilde" output="Ũ"/>
+			<when state="tilde-akutt" output="Ṹ"/>
+			<when state="tøddel" output="Ü"/>
+			<when state="tøddel-akutt" output="Ǘ"/>
+			<when state="tøddel-grav" output="Ǜ"/>
+			<when state="tøddel-hake" output="Ǚ"/>
+			<when state="tøddel-makron" output="Ǖ"/>
+			<when state="undercirkumfleks" output="Ṷ"/>
+			<when state="underprikk" output="Ụ"/>
+			<when state="undertilde" output="Ṵ"/>
+			<when state="undertøddel" output="Ṳ"/>
+		</action>
+		<action id="U 1">
+			<when state="none" output="U"/>
+			<when state="akutt" output="Ú"/>
+			<when state="breve" output="Ŭ"/>
+			<when state="cirkumfleks" output="Û"/>
+			<when state="dobbelakutt" output="Ű"/>
+			<when state="dobbelgrav" output="Ȕ"/>
+			<when state="gjennomstrek" output="Ʉ"/>
+			<when state="grav" output="Ù"/>
+			<when state="hake" output="Ǔ"/>
+			<when state="horn" output="Ư"/>
+			<when state="horn-akutt" output="Ứ"/>
+			<when state="horn-grav" output="Ừ"/>
+			<when state="horn-krok" output="Ử"/>
+			<when state="horn-tilde" output="Ữ"/>
+			<when state="horn-underprikk" output="Ự"/>
+			<when state="invertertbreve" output="Ȗ"/>
+			<when state="krok" output="Ủ"/>
+			<when state="kvist" output="Ų"/>
+			<when state="makron" output="Ū"/>
+			<when state="makron-tøddel" output="Ṻ"/>
+			<when state="overring" output="Ů"/>
+			<when state="spesial" output="Ʊ"/>
+			<when state="tilde" output="Ũ"/>
+			<when state="tilde-akutt" output="Ṹ"/>
+			<when state="tøddel" output="Ü"/>
+			<when state="tøddel-akutt" output="Ǘ"/>
+			<when state="tøddel-grav" output="Ǜ"/>
+			<when state="tøddel-hake" output="Ǚ"/>
+			<when state="tøddel-makron" output="Ǖ"/>
+			<when state="undercirkumfleks" output="Ṷ"/>
+			<when state="underprikk" output="Ụ"/>
+			<when state="undertilde" output="Ṵ"/>
+			<when state="undertøddel" output="Ṳ"/>
+		</action>
+		<action id="V">
+			<when state="none" output="V"/>
+			<when state="krok" output="Ʋ"/>
+			<when state="skråstrek" output="Ꝟ"/>
+			<when state="spesial" output="Ꝩ"/>
+			<when state="tilde" output="Ṽ"/>
+			<when state="underprikk" output="Ṿ"/>
+		</action>
+		<action id="V 1">
+			<when state="none" output="V"/>
+			<when state="krok" output="Ʋ"/>
+			<when state="skråstrek" output="Ꝟ"/>
+			<when state="spesial" output="Ꝩ"/>
+			<when state="tilde" output="Ṽ"/>
+			<when state="underprikk" output="Ṿ"/>
+		</action>
+		<action id="W">
+			<when state="none" output="W"/>
+			<when state="akutt" output="Ẃ"/>
+			<when state="cirkumfleks" output="Ŵ"/>
+			<when state="grav" output="Ẁ"/>
+			<when state="krok" output="Ⱳ"/>
+			<when state="overprikk" output="Ẇ"/>
+			<when state="spesial" output="Ƿ"/>
+			<when state="tøddel" output="Ẅ"/>
+			<when state="underprikk" output="Ẉ"/>
+		</action>
+		<action id="W 1">
+			<when state="none" output="W"/>
+			<when state="akutt" output="Ẃ"/>
+			<when state="cirkumfleks" output="Ŵ"/>
+			<when state="grav" output="Ẁ"/>
+			<when state="krok" output="Ⱳ"/>
+			<when state="overprikk" output="Ẇ"/>
+			<when state="spesial" output="Ƿ"/>
+			<when state="tøddel" output="Ẅ"/>
+			<when state="underprikk" output="Ẉ"/>
+		</action>
+		<action id="X">
+			<when state="none" output="X"/>
+			<when state="overprikk" output="Ẋ"/>
+			<when state="tøddel" output="Ẍ"/>
+		</action>
+		<action id="X 1">
+			<when state="none" output="X"/>
+			<when state="overprikk" output="Ẋ"/>
+			<when state="tøddel" output="Ẍ"/>
+		</action>
+		<action id="Y">
+			<when state="none" output="Y"/>
+			<when state="akutt" output="Ý"/>
+			<when state="cirkumfleks" output="Ŷ"/>
+			<when state="gjennomstrek" output="Ɏ"/>
+			<when state="grav" output="Ỳ"/>
+			<when state="krok" output="Ƴ"/>
+			<when state="makron" output="Ȳ"/>
+			<when state="overprikk" output="Ẏ"/>
+			<when state="spesial" output="Ɥ"/>
+			<when state="tilde" output="Ỹ"/>
+			<when state="tøddel" output="Ÿ"/>
+			<when state="underprikk" output="Ỵ"/>
+		</action>
+		<action id="Y 1">
+			<when state="none" output="Y"/>
+			<when state="akutt" output="Ý"/>
+			<when state="cirkumfleks" output="Ŷ"/>
+			<when state="gjennomstrek" output="Ɏ"/>
+			<when state="grav" output="Ỳ"/>
+			<when state="krok" output="Ƴ"/>
+			<when state="makron" output="Ȳ"/>
+			<when state="overprikk" output="Ẏ"/>
+			<when state="spesial" output="Ɥ"/>
+			<when state="tilde" output="Ỹ"/>
+			<when state="tøddel" output="Ÿ"/>
+			<when state="underprikk" output="Ỵ"/>
+		</action>
+		<action id="Z">
+			<when state="none" output="Z"/>
+			<when state="akutt" output="Ź"/>
+			<when state="cirkumfleks" output="Ẑ"/>
+			<when state="gjennomstrek" output="Ƶ"/>
+			<when state="hake" output="Ž"/>
+			<when state="krok" output="Ȥ"/>
+			<when state="overprikk" output="Ż"/>
+			<when state="spesial" output="Ʒ"/>
+			<when state="underprikk" output="Ẓ"/>
+			<when state="understrek" output="Ẕ"/>
+		</action>
+		<action id="Z 1">
+			<when state="none" output="Z"/>
+			<when state="akutt" output="Ź"/>
+			<when state="cirkumfleks" output="Ẑ"/>
+			<when state="gjennomstrek" output="Ƶ"/>
+			<when state="hake" output="Ž"/>
+			<when state="krok" output="Ȥ"/>
+			<when state="overprikk" output="Ż"/>
+			<when state="spesial" output="Ʒ"/>
+			<when state="underprikk" output="Ẓ"/>
+			<when state="understrek" output="Ẕ"/>
+		</action>
+		<action id="_">
+			<when state="none" output="_"/>
+			<when state="gjennomstrek" output="­"/>
+		</action>
+		<action id="a">
+			<when state="none" output="a"/>
+			<when state="akutt" output="á"/>
+			<when state="breve" output="ă"/>
+			<when state="breve-akutt" output="ắ"/>
+			<when state="breve-grav" output="ằ"/>
+			<when state="breve-krok" output="ẳ"/>
+			<when state="breve-tilde" output="ẵ"/>
+			<when state="breve-underprikk" output="ặ"/>
+			<when state="cirkumfleks" output="â"/>
+			<when state="cirkumfleks-akutt" output="ấ"/>
+			<when state="cirkumfleks-grav" output="ầ"/>
+			<when state="cirkumfleks-krok" output="ẩ"/>
+			<when state="cirkumfleks-tilde" output="ẫ"/>
+			<when state="cirkumfleks-underprikk" output="ậ"/>
+			<when state="dobbelgrav" output="ȁ"/>
+			<when state="grav" output="à"/>
+			<when state="hake" output="ǎ"/>
+			<when state="invertertbreve" output="ȃ"/>
+			<when state="krok" output="ả"/>
+			<when state="kvist" output="ą"/>
+			<when state="makron" output="ā"/>
+			<when state="overprikk" output="ȧ"/>
+			<when state="overprikk-makron" output="ǡ"/>
+			<when state="overring" output="å"/>
+			<when state="skråstrek" output="ⱥ"/>
+			<when state="spesial" output="⌘"/>
+			<when state="tilde" output="ã"/>
+			<when state="tøddel" output="ä"/>
+			<when state="tøddel-makron" output="ǟ"/>
+			<when state="underprikk" output="ạ"/>
+			<when state="underring" output="ḁ"/>
+		</action>
+		<action id="akutt">
+			<when state="none" output="\"/>
+			<when state="akutt" next="dobbelakutt"/>
+			<when state="breve" next="breve-akutt"/>
+			<when state="cirkumfleks" next="cirkumfleks-akutt"/>
+			<when state="horn" next="horn-akutt"/>
+			<when state="makron" next="makron-akutt"/>
+			<when state="overprikk" next="akutt-overprikk"/>
+			<when state="spesial" output="⌫"/>
+			<when state="tilde" next="tilde-akutt"/>
+			<when state="tøddel" next="tøddel-akutt"/>
+		</action>
+		<action id="akutt 1">
+			<when state="none" next="akutt"/>
+			<when state="akutt" next="dobbelakutt"/>
+			<when state="breve" next="breve-akutt"/>
+			<when state="cirkumfleks" next="cirkumfleks-akutt"/>
+			<when state="horn" next="horn-akutt"/>
+			<when state="makron" next="makron-akutt"/>
+			<when state="overprikk" next="akutt-overprikk"/>
+			<when state="spesial" output="⌫"/>
+			<when state="tilde" next="tilde-akutt"/>
+			<when state="tøddel" next="tøddel-akutt"/>
+		</action>
+		<action id="apostrof">
+			<when state="none" output="|"/>
+			<when state="akutt" output="́"/>
+			<when state="akutt-overprikk" output="́̇"/>
+			<when state="breve" output="̆"/>
+			<when state="breve-akutt" output="̆́"/>
+			<when state="breve-grav" output="̆̀"/>
+			<when state="breve-krok" output="̆̉"/>
+			<when state="breve-tilde" output="̆̃"/>
+			<when state="breve-underprikk" output="̣̆"/>
+			<when state="cedille" output="̧"/>
+			<when state="cedille-breve" output="̧̆"/>
+			<when state="cirkumfleks" output="̂"/>
+			<when state="cirkumfleks-akutt" output="̂́"/>
+			<when state="cirkumfleks-grav" output="̂̀"/>
+			<when state="cirkumfleks-krok" output="̂̉"/>
+			<when state="cirkumfleks-tilde" output="̂̃"/>
+			<when state="cirkumfleks-underprikk" output="̣̂"/>
+			<when state="dobbelakutt" output="̋"/>
+			<when state="dobbelgrav" output="̏"/>
+			<when state="gjennomstrek" output="̵"/>
+			<when state="grav" output="̀"/>
+			<when state="hake" output="̌"/>
+			<when state="hake-overprikk" output="̌̇"/>
+			<when state="horn" output="̛"/>
+			<when state="horn-akutt" output="̛́"/>
+			<when state="horn-grav" output="̛̀"/>
+			<when state="horn-krok" output="̛̉"/>
+			<when state="horn-tilde" output="̛̃"/>
+			<when state="horn-underprikk" output="̛̣"/>
+			<when state="invertertbreve" output="̑"/>
+			<when state="komma" output="̦"/>
+			<when state="krok" output="̉"/>
+			<when state="kvist" output="̨"/>
+			<when state="kvist-makron" output="̨̄"/>
+			<when state="makron" output="̄"/>
+			<when state="makron-akutt" output="̄́"/>
+			<when state="makron-grav" output="̄̀"/>
+			<when state="makron-tøddel" output="̄̈"/>
+			<when state="overprikk" output="̇"/>
+			<when state="overprikk-makron" output="˙̄"/>
+			<when state="overring" output="̊"/>
+			<when state="skråstrek" output="̷"/>
+			<when state="spesial" output="′"/>
+			<when state="tilde" output="̃"/>
+			<when state="tilde-akutt" output="̃́"/>
+			<when state="tilde-makron" output="̃̄"/>
+			<when state="tilde-tøddel" output="̃̈"/>
+			<when state="tøddel" output="̈"/>
+			<when state="tøddel-akutt" output="̈́"/>
+			<when state="tøddel-grav" output="̈̀"/>
+			<when state="tøddel-hake" output="̈̌"/>
+			<when state="tøddel-makron" output="̈̄"/>
+			<when state="undercirkumfleks" output="̭"/>
+			<when state="underprikk" output="̣"/>
+			<when state="underprikk-makron" output="̣̄"/>
+			<when state="underprikk-overprikk" output="̣̇"/>
+			<when state="underring" output="̥"/>
+			<when state="understrek" output="̱"/>
+			<when state="undertilde" output="̰"/>
+			<when state="undertøddel" output="̤"/>
+		</action>
+		<action id="apostrof 1">
+			<when state="none" output="&#x0027;"/>
+			<when state="akutt" output="́"/>
+			<when state="akutt-overprikk" output="́̇"/>
+			<when state="breve" output="̆"/>
+			<when state="breve-akutt" output="̆́"/>
+			<when state="breve-grav" output="̆̀"/>
+			<when state="breve-krok" output="̆̉"/>
+			<when state="breve-tilde" output="̆̃"/>
+			<when state="breve-underprikk" output="̣̆"/>
+			<when state="cedille" output="̧"/>
+			<when state="cedille-breve" output="̧̆"/>
+			<when state="cirkumfleks" output="̂"/>
+			<when state="cirkumfleks-akutt" output="̂́"/>
+			<when state="cirkumfleks-grav" output="̂̀"/>
+			<when state="cirkumfleks-krok" output="̂̉"/>
+			<when state="cirkumfleks-tilde" output="̂̃"/>
+			<when state="cirkumfleks-underprikk" output="̣̂"/>
+			<when state="dobbelakutt" output="̋"/>
+			<when state="dobbelgrav" output="̏"/>
+			<when state="gjennomstrek" output="̵"/>
+			<when state="grav" output="̀"/>
+			<when state="hake" output="̌"/>
+			<when state="hake-overprikk" output="̌̇"/>
+			<when state="horn" output="̛"/>
+			<when state="horn-akutt" output="̛́"/>
+			<when state="horn-grav" output="̛̀"/>
+			<when state="horn-krok" output="̛̉"/>
+			<when state="horn-tilde" output="̛̃"/>
+			<when state="horn-underprikk" output="̛̣"/>
+			<when state="invertertbreve" output="̑"/>
+			<when state="komma" output="̦"/>
+			<when state="krok" output="̉"/>
+			<when state="kvist" output="̨"/>
+			<when state="kvist-makron" output="̨̄"/>
+			<when state="makron" output="̄"/>
+			<when state="makron-akutt" output="̄́"/>
+			<when state="makron-grav" output="̄̀"/>
+			<when state="makron-tøddel" output="̄̈"/>
+			<when state="overprikk" output="̇"/>
+			<when state="overprikk-makron" output="˙̄"/>
+			<when state="overring" output="̊"/>
+			<when state="skråstrek" output="̷"/>
+			<when state="spesial" output="′"/>
+			<when state="tilde" output="̃"/>
+			<when state="tilde-akutt" output="̃́"/>
+			<when state="tilde-makron" output="̃̄"/>
+			<when state="tilde-tøddel" output="̃̈"/>
+			<when state="tøddel" output="̈"/>
+			<when state="tøddel-akutt" output="̈́"/>
+			<when state="tøddel-grav" output="̈̀"/>
+			<when state="tøddel-hake" output="̈̌"/>
+			<when state="tøddel-makron" output="̈̄"/>
+			<when state="undercirkumfleks" output="̭"/>
+			<when state="underprikk" output="̣"/>
+			<when state="underprikk-makron" output="̣̄"/>
+			<when state="underprikk-overprikk" output="̣̇"/>
+			<when state="underring" output="̥"/>
+			<when state="understrek" output="̱"/>
+			<when state="undertilde" output="̰"/>
+			<when state="undertøddel" output="̤"/>
+		</action>
+		<action id="b">
+			<when state="none" output="b"/>
+			<when state="gjennomstrek" output="ƀ"/>
+			<when state="krok" output="ɓ"/>
+			<when state="overprikk" output="ḃ"/>
+			<when state="underprikk" output="ḅ"/>
+			<when state="understrek" output="ḇ"/>
+		</action>
+		<action id="breve">
+			<when state="none" next="breve"/>
+			<when state="akutt" next="breve-akutt"/>
+			<when state="breve" next="invertertbreve"/>
+			<when state="cedille" next="cedille-breve"/>
+			<when state="grav" next="breve-grav"/>
+			<when state="krok" next="breve-krok"/>
+			<when state="tilde" next="breve-tilde"/>
+			<when state="underprikk" next="breve-underprikk"/>
+		</action>
+		<action id="c">
+			<when state="none" output="c"/>
+			<when state="akutt" output="ć"/>
+			<when state="cedille" output="ç"/>
+			<when state="cirkumfleks" output="ĉ"/>
+			<when state="gjennomstrek" output="ꞓ"/>
+			<when state="hake" output="č"/>
+			<when state="krok" output="ƈ"/>
+			<when state="overprikk" output="ċ"/>
+			<when state="skråstrek" output="ȼ"/>
+		</action>
+		<action id="cedille">
+			<when state="none" next="cedille"/>
+			<when state="breve" next="cedille-breve"/>
+			<when state="spesial" output="ᵹ"/>
+		</action>
+		<action id="cedille 1">
+			<when state="none" next="cedille"/>
+			<when state="breve" next="cedille-breve"/>
+			<when state="spesial" output="Ᵹ"/>
+		</action>
+		<action id="cirkumfleks">
+			<when state="none" next="cirkumfleks"/>
+			<when state="akutt" next="cirkumfleks-akutt"/>
+			<when state="cirkumfleks" next="undercirkumfleks"/>
+			<when state="grav" next="cirkumfleks-grav"/>
+			<when state="krok" next="cirkumfleks-krok"/>
+			<when state="spesial" output="↘"/>
+			<when state="tilde" next="cirkumfleks-tilde"/>
+			<when state="underprikk" next="cirkumfleks-underprikk"/>
+		</action>
+		<action id="d">
+			<when state="none" output="d"/>
+			<when state="cedille" output="ḑ"/>
+			<when state="gjennomstrek" output="đ"/>
+			<when state="hake" output="ď"/>
+			<when state="komma" output="ḑ"/>
+			<when state="krok" output="ɗ"/>
+			<when state="overprikk" output="ḋ"/>
+			<when state="spesial" output="∂"/>
+			<when state="undercirkumfleks" output="ḓ"/>
+			<when state="underprikk" output="ḍ"/>
+			<when state="understrek" output="ḏ"/>
+		</action>
+		<action id="dobbelakutt">
+			<when state="none" next="dobbelakutt"/>
+		</action>
+		<action id="dobbelakutt 1">
+			<when state="none" next="dobbelakutt"/>
+		</action>
+		<action id="e">
+			<when state="none" output="e"/>
+			<when state="akutt" output="é"/>
+			<when state="breve" output="ĕ"/>
+			<when state="cedille" output="ȩ"/>
+			<when state="cedille-breve" output="ḝ"/>
+			<when state="cirkumfleks" output="ê"/>
+			<when state="cirkumfleks-akutt" output="ế"/>
+			<when state="cirkumfleks-grav" output="ề"/>
+			<when state="cirkumfleks-krok" output="ể"/>
+			<when state="cirkumfleks-tilde" output="ễ"/>
+			<when state="cirkumfleks-underprikk" output="ệ"/>
+			<when state="dobbelgrav" output="ȅ"/>
+			<when state="grav" output="è"/>
+			<when state="hake" output="ě"/>
+			<when state="invertertbreve" output="ȇ"/>
+			<when state="krok" output="ẻ"/>
+			<when state="kvist" output="ę"/>
+			<when state="makron" output="ē"/>
+			<when state="makron-akutt" output="ḗ"/>
+			<when state="makron-grav" output="ḕ"/>
+			<when state="overprikk" output="ė"/>
+			<when state="skråstrek" output="ɇ"/>
+			<when state="spesial" output="ɛ"/>
+			<when state="tilde" output="ẽ"/>
+			<when state="tøddel" output="ë"/>
+			<when state="undercirkumfleks" output="ḙ"/>
+			<when state="underprikk" output="ẹ"/>
+			<when state="undertilde" output="ḛ"/>
+		</action>
+		<action id="f">
+			<when state="none" output="f"/>
+			<when state="hake" output="ǆ"/>
+			<when state="krok" output="ƒ"/>
+			<when state="overprikk" output="ḟ"/>
+			<when state="spesial" output="ǳ"/>
+		</action>
+		<action id="g">
+			<when state="none" output="g"/>
+			<when state="akutt" output="ǵ"/>
+			<when state="breve" output="ğ"/>
+			<when state="cedille" output="ģ"/>
+			<when state="cirkumfleks" output="ĝ"/>
+			<when state="gjennomstrek" output="ǥ"/>
+			<when state="hake" output="ǧ"/>
+			<when state="komma" output="ģ"/>
+			<when state="krok" output="ɠ"/>
+			<when state="makron" output="ḡ"/>
+			<when state="overprikk" output="ġ"/>
+			<when state="spesial" output="ɣ"/>
+		</action>
+		<action id="gjennomstrek">
+			<when state="none" next="gjennomstrek"/>
+			<when state="gjennomstrek" next="skråstrek"/>
+		</action>
+		<action id="grav">
+			<when state="none" next="grav"/>
+			<when state="breve" next="breve-grav"/>
+			<when state="cirkumfleks" next="cirkumfleks-grav"/>
+			<when state="grav" next="dobbelgrav"/>
+			<when state="horn" next="horn-grav"/>
+			<when state="makron" next="makron-grav"/>
+			<when state="spesial" output="⌦"/>
+			<when state="tøddel" next="tøddel-grav"/>
+		</action>
+		<action id="h">
+			<when state="none" output="h"/>
+			<when state="breve" output="ḫ"/>
+			<when state="cedille" output="ḩ"/>
+			<when state="cirkumfleks" output="ĥ"/>
+			<when state="gjennomstrek" output="ħ"/>
+			<when state="hake" output="ȟ"/>
+			<when state="krok" output="ɦ"/>
+			<when state="overprikk" output="ḣ"/>
+			<when state="spesial" output="ƕ"/>
+			<when state="tøddel" output="ḧ"/>
+			<when state="underprikk" output="ḥ"/>
+			<when state="understrek" output="ẖ"/>
+		</action>
+		<action id="hake">
+			<when state="none" next="hake"/>
+			<when state="tøddel" next="tøddel-hake"/>
+		</action>
+		<action id="horn">
+			<when state="none" next="horn"/>
+			<when state="akutt" next="horn-akutt"/>
+			<when state="grav" next="horn-grav"/>
+			<when state="krok" next="horn-krok"/>
+			<when state="tilde" next="horn-tilde"/>
+			<when state="underprikk" next="horn-underprikk"/>
+		</action>
+		<action id="i">
+			<when state="none" output="i"/>
+			<when state="akutt" output="í"/>
+			<when state="breve" output="ĭ"/>
+			<when state="cirkumfleks" output="î"/>
+			<when state="dobbelgrav" output="ȉ"/>
+			<when state="gjennomstrek" output="ɨ"/>
+			<when state="grav" output="ì"/>
+			<when state="hake" output="ǐ"/>
+			<when state="invertertbreve" output="ȋ"/>
+			<when state="krok" output="ỉ"/>
+			<when state="kvist" output="į"/>
+			<when state="makron" output="ī"/>
+			<when state="overprikk" output="ı"/>
+			<when state="spesial" output="ĳ"/>
+			<when state="tilde" output="ĩ"/>
+			<when state="tøddel" output="ï"/>
+			<when state="tøddel-akutt" output="ḯ"/>
+			<when state="underprikk" output="ị"/>
+			<when state="undertilde" output="ḭ"/>
+		</action>
+		<action id="j">
+			<when state="none" output="j"/>
+			<when state="cirkumfleks" output="ĵ"/>
+			<when state="gjennomstrek" output="ɉ"/>
+			<when state="hake" output="ǰ"/>
+			<when state="overprikk" output="ȷ"/>
+			<when state="spesial" output="ȝ"/>
+		</action>
+		<action id="k">
+			<when state="none" output="k"/>
+			<when state="akutt" output="ḱ"/>
+			<when state="cedille" output="ķ"/>
+			<when state="gjennomstrek" output="ꝁ"/>
+			<when state="hake" output="ǩ"/>
+			<when state="komma" output="ķ"/>
+			<when state="krok" output="ƙ"/>
+			<when state="skråstrek" output="ꝃ"/>
+			<when state="spesial" output="ĸ"/>
+			<when state="underprikk" output="ḳ"/>
+			<when state="understrek" output="ḵ"/>
+		</action>
+		<action id="komma">
+			<when state="none" next="komma"/>
+		</action>
+		<action id="krok">
+			<when state="none" next="krok"/>
+			<when state="breve" next="breve-krok"/>
+			<when state="cirkumfleks" next="cirkumfleks-krok"/>
+			<when state="horn" next="horn-krok"/>
+			<when state="krok" output="ɾ"/>
+		</action>
+		<action id="krok 1">
+			<when state="none" next="krok"/>
+			<when state="breve" next="breve-krok"/>
+			<when state="cirkumfleks" next="cirkumfleks-krok"/>
+			<when state="horn" next="horn-krok"/>
+		</action>
+		<action id="kvist">
+			<when state="none" next="kvist"/>
+			<when state="makron" next="kvist-makron"/>
+		</action>
+		<action id="kvist 1">
+			<when state="none" next="kvist"/>
+			<when state="makron" next="kvist-makron"/>
+			<when state="spesial" output="Ɥ"/>
+		</action>
+		<action id="l">
+			<when state="none" output="l"/>
+			<when state="akutt" output="ĺ"/>
+			<when state="cedille" output="ļ"/>
+			<when state="gjennomstrek" output="ł"/>
+			<when state="hake" output="ľ"/>
+			<when state="komma" output="ļ"/>
+			<when state="overprikk" output="ŀ"/>
+			<when state="spesial" output="ǉ"/>
+			<when state="tilde" output="ɫ"/>
+			<when state="undercirkumfleks" output="ḽ"/>
+			<when state="underprikk" output="ḷ"/>
+			<when state="underprikk-makron" output="ḹ"/>
+			<when state="understrek" output="ḻ"/>
+		</action>
+		<action id="m">
+			<when state="none" output="m"/>
+			<when state="akutt" output="ḿ"/>
+			<when state="krok" output="ɱ"/>
+			<when state="overprikk" output="ṁ"/>
+			<when state="underprikk" output="ṃ"/>
+		</action>
+		<action id="makron">
+			<when state="none" next="makron"/>
+			<when state="akutt" next="makron-akutt"/>
+			<when state="grav" next="makron-grav"/>
+			<when state="kvist" next="kvist-makron"/>
+			<when state="makron" next="understrek"/>
+			<when state="overprikk" next="overprikk-makron"/>
+			<when state="spesial" output="Ᵹ"/>
+			<when state="tilde" next="tilde-makron"/>
+			<when state="tøddel" next="tøddel-makron"/>
+			<when state="underprikk" next="underprikk-makron"/>
+		</action>
+		<action id="n">
+			<when state="none" output="n"/>
+			<when state="akutt" output="ń"/>
+			<when state="cedille" output="ņ"/>
+			<when state="grav" output="ǹ"/>
+			<when state="hake" output="ň"/>
+			<when state="komma" output="ņ"/>
+			<when state="krok" output="ɲ"/>
+			<when state="kvist" output="ŋ"/>
+			<when state="overprikk" output="ṅ"/>
+			<when state="spesial" output="ǌ"/>
+			<when state="tilde" output="ñ"/>
+			<when state="undercirkumfleks" output="ṋ"/>
+			<when state="underprikk" output="ṇ"/>
+			<when state="understrek" output="ṉ"/>
+		</action>
+		<action id="o">
+			<when state="none" output="o"/>
+			<when state="akutt" output="ó"/>
+			<when state="breve" output="ŏ"/>
+			<when state="cirkumfleks" output="ô"/>
+			<when state="cirkumfleks-akutt" output="ố"/>
+			<when state="cirkumfleks-grav" output="ồ"/>
+			<when state="cirkumfleks-krok" output="ổ"/>
+			<when state="cirkumfleks-tilde" output="ỗ"/>
+			<when state="cirkumfleks-underprikk" output="ộ"/>
+			<when state="dobbelakutt" output="ő"/>
+			<when state="dobbelgrav" output="ȍ"/>
+			<when state="gjennomstrek" output="ɵ"/>
+			<when state="grav" output="ò"/>
+			<when state="hake" output="ǒ"/>
+			<when state="horn" output="ơ"/>
+			<when state="horn-akutt" output="ớ"/>
+			<when state="horn-grav" output="ờ"/>
+			<when state="horn-krok" output="ở"/>
+			<when state="horn-tilde" output="ỡ"/>
+			<when state="horn-underprikk" output="ợ"/>
+			<when state="invertertbreve" output="ȏ"/>
+			<when state="krok" output="ỏ"/>
+			<when state="kvist" output="ǫ"/>
+			<when state="kvist-makron" output="ǭ"/>
+			<when state="makron" output="ō"/>
+			<when state="makron-akutt" output="ṓ"/>
+			<when state="makron-grav" output="ṑ"/>
+			<when state="overprikk" output="ȯ"/>
+			<when state="overprikk-makron" output="ȱ"/>
+			<when state="skråstrek" output="ø"/>
+			<when state="spesial" output="ɔ"/>
+			<when state="tilde" output="õ"/>
+			<when state="tilde-akutt" output="ṍ"/>
+			<when state="tilde-makron" output="ȭ"/>
+			<when state="tilde-tøddel" output="ṏ"/>
+			<when state="tøddel" output="ö"/>
+			<when state="tøddel-makron" output="ȫ"/>
+			<when state="underprikk" output="ọ"/>
+		</action>
+		<action id="overprikk">
+			<when state="none" next="overprikk"/>
+			<when state="akutt" next="akutt-overprikk"/>
+			<when state="hake" next="hake-overprikk"/>
+			<when state="makron" next="overprikk-makron"/>
+			<when state="overprikk" next="underprikk"/>
+			<when state="spesial" output="▾"/>
+			<when state="underprikk" next="underprikk-overprikk"/>
+		</action>
+		<action id="overprikk 1">
+			<when state="none" next="overprikk"/>
+			<when state="akutt" next="akutt-overprikk"/>
+			<when state="hake" next="hake-overprikk"/>
+			<when state="makron" next="overprikk-makron"/>
+			<when state="overprikk" next="underprikk"/>
+			<when state="spesial" output="▾"/>
+			<when state="underprikk" next="underprikk-overprikk"/>
+		</action>
+		<action id="overring">
+			<when state="none" next="overring"/>
+			<when state="overring" next="underring"/>
+		</action>
+		<action id="p">
+			<when state="none" output="p"/>
+			<when state="akutt" output="ṕ"/>
+			<when state="gjennomstrek" output="ᵽ"/>
+			<when state="krok" output="ƥ"/>
+			<when state="overprikk" output="ṗ"/>
+			<when state="spesial" output="←"/>
+		</action>
+		<action id="q">
+			<when state="none" output="q"/>
+			<when state="gjennomstrek" output="ꝗ"/>
+			<when state="krok" output="ʠ"/>
+			<when state="skråstrek" output="ꝙ"/>
+		</action>
+		<action id="r">
+			<when state="none" output="r"/>
+			<when state="akutt" output="ŕ"/>
+			<when state="cedille" output="ŗ"/>
+			<when state="dobbelgrav" output="ȑ"/>
+			<when state="gjennomstrek" output="ɍ"/>
+			<when state="hake" output="ř"/>
+			<when state="invertertbreve" output="ȓ"/>
+			<when state="komma" output="ŗ"/>
+			<when state="krok" output="ɽ"/>
+			<when state="overprikk" output="ṙ"/>
+			<when state="spesial" output="ʀ"/>
+			<when state="underprikk" output="ṛ"/>
+			<when state="underprikk-makron" output="ṝ"/>
+			<when state="understrek" output="ṟ"/>
+		</action>
+		<action id="s">
+			<when state="none" output="s"/>
+			<when state="akutt" output="ś"/>
+			<when state="akutt-overprikk" output="ṥ"/>
+			<when state="cedille" output="ş"/>
+			<when state="cirkumfleks" output="ŝ"/>
+			<when state="gjennomstrek" output="ẝ"/>
+			<when state="hake" output="š"/>
+			<when state="hake-overprikk" output="ṧ"/>
+			<when state="komma" output="ș"/>
+			<when state="krok" output="ʃ"/>
+			<when state="overprikk" output="ṡ"/>
+			<when state="skråstrek" output="ẜ"/>
+			<when state="spesial" output="ſ"/>
+			<when state="underprikk" output="ṣ"/>
+			<when state="underprikk-overprikk" output="ṩ"/>
+		</action>
+		<action id="spesial">
+			<when state="none" next="spesial"/>
+		</action>
+		<action id="spesial 1">
+			<when state="none" next="spesial"/>
+		</action>
+		<action id="t">
+			<when state="none" output="t"/>
+			<when state="cedille" output="ţ"/>
+			<when state="gjennomstrek" output="ŧ"/>
+			<when state="hake" output="ť"/>
+			<when state="komma" output="ț"/>
+			<when state="krok" output="ƭ"/>
+			<when state="overprikk" output="ṫ"/>
+			<when state="skråstrek" output="ⱦ"/>
+			<when state="spesial" output="†"/>
+			<when state="tøddel" output="ẗ"/>
+			<when state="undercirkumfleks" output="ṱ"/>
+			<when state="underprikk" output="ṭ"/>
+			<when state="understrek" output="ṯ"/>
+		</action>
+		<action id="tast50">
+			<when state="none" output="&#x003C;"/>
+			<when state="akutt" output="́"/>
+			<when state="akutt-overprikk" output="́̇"/>
+			<when state="breve" output="̆"/>
+			<when state="breve-akutt" output="̆́"/>
+			<when state="breve-grav" output="̆̀"/>
+			<when state="breve-krok" output="̆̉"/>
+			<when state="breve-tilde" output="̆̃"/>
+			<when state="breve-underprikk" output="̣̆"/>
+			<when state="cedille" output="̧"/>
+			<when state="cedille-breve" output="̧̆"/>
+			<when state="cirkumfleks" output="̂"/>
+			<when state="cirkumfleks-akutt" output="̂́"/>
+			<when state="cirkumfleks-grav" output="̂̀"/>
+			<when state="cirkumfleks-krok" output="̂̉"/>
+			<when state="cirkumfleks-tilde" output="̂̃"/>
+			<when state="cirkumfleks-underprikk" output="̣̂"/>
+			<when state="dobbelakutt" output="̋"/>
+			<when state="dobbelgrav" output="̏"/>
+			<when state="gjennomstrek" output="̵"/>
+			<when state="grav" output="̀"/>
+			<when state="hake" output="̌"/>
+			<when state="hake-overprikk" output="̌̇"/>
+			<when state="horn" output="̛"/>
+			<when state="horn-akutt" output="̛́"/>
+			<when state="horn-grav" output="̛̀"/>
+			<when state="horn-krok" output="̛̉"/>
+			<when state="horn-tilde" output="̛̃"/>
+			<when state="horn-underprikk" output="̛̣"/>
+			<when state="invertertbreve" output="̑"/>
+			<when state="komma" output="̦"/>
+			<when state="krok" output="̉"/>
+			<when state="kvist" output="̨"/>
+			<when state="kvist-makron" output="̨̄"/>
+			<when state="makron" output="̄"/>
+			<when state="makron-akutt" output="̄́"/>
+			<when state="makron-grav" output="̄̀"/>
+			<when state="makron-tøddel" output="̄̈"/>
+			<when state="overprikk" output="̇"/>
+			<when state="overprikk-makron" output="˙̄"/>
+			<when state="overring" output="̊"/>
+			<when state="skråstrek" output="̷"/>
+			<when state="spesial" output="≪"/>
+			<when state="tilde" output="̃"/>
+			<when state="tilde-akutt" output="̃́"/>
+			<when state="tilde-makron" output="̃̄"/>
+			<when state="tilde-tøddel" output="̃̈"/>
+			<when state="tøddel" output="̈"/>
+			<when state="tøddel-akutt" output="̈́"/>
+			<when state="tøddel-grav" output="̈̀"/>
+			<when state="tøddel-hake" output="̈̌"/>
+			<when state="tøddel-makron" output="̈̄"/>
+			<when state="undercirkumfleks" output="̭"/>
+			<when state="underprikk" output="̣"/>
+			<when state="underprikk-makron" output="̣̄"/>
+			<when state="underprikk-overprikk" output="̣̇"/>
+			<when state="underring" output="̥"/>
+			<when state="understrek" output="̱"/>
+			<when state="undertilde" output="̰"/>
+			<when state="undertøddel" output="̤"/>
+		</action>
+		<action id="tast50alt">
+			<when state="none" output="≤"/>
+			<when state="breve" output="͝"/>
+			<when state="invertertbreve" output="͡"/>
+			<when state="makron" output="͞"/>
+			<when state="spesial" output="≺"/>
+			<when state="tilde" output="͠"/>
+			<when state="understrek" output="͟"/>
+		</action>
+		<action id="tast50altshift">
+			<when state="none" output="≥"/>
+			<when state="breve" output="͜"/>
+			<when state="invertertbreve" output="᷼"/>
+			<when state="spesial" output="≻"/>
+		</action>
+		<action id="tast50caps">
+			<when state="none" output="&#x003C;"/>
+			<when state="akutt" output="́"/>
+			<when state="akutt-overprikk" output="́̇"/>
+			<when state="breve" output="̆"/>
+			<when state="breve-akutt" output="̆́"/>
+			<when state="breve-grav" output="̆̀"/>
+			<when state="breve-krok" output="̆̉"/>
+			<when state="breve-tilde" output="̆̃"/>
+			<when state="breve-underprikk" output="̣̆"/>
+			<when state="cedille" output="̧"/>
+			<when state="cedille-breve" output="̧̆"/>
+			<when state="cirkumfleks" output="̂"/>
+			<when state="cirkumfleks-akutt" output="̂́"/>
+			<when state="cirkumfleks-grav" output="̂̀"/>
+			<when state="cirkumfleks-krok" output="̂̉"/>
+			<when state="cirkumfleks-tilde" output="̂̃"/>
+			<when state="cirkumfleks-underprikk" output="̣̂"/>
+			<when state="dobbelakutt" output="̋"/>
+			<when state="dobbelgrav" output="̏"/>
+			<when state="gjennomstrek" output="̵"/>
+			<when state="grav" output="̀"/>
+			<when state="hake" output="̌"/>
+			<when state="hake-overprikk" output="̌̇"/>
+			<when state="horn" output="̛"/>
+			<when state="horn-akutt" output="̛́"/>
+			<when state="horn-grav" output="̛̀"/>
+			<when state="horn-krok" output="̛̉"/>
+			<when state="horn-tilde" output="̛̃"/>
+			<when state="horn-underprikk" output="̛̣"/>
+			<when state="invertertbreve" output="̑"/>
+			<when state="komma" output="̦"/>
+			<when state="krok" output="̉"/>
+			<when state="kvist" output="̨"/>
+			<when state="kvist-makron" output="̨̄"/>
+			<when state="makron" output="̄"/>
+			<when state="makron-akutt" output="̄́"/>
+			<when state="makron-grav" output="̄̀"/>
+			<when state="makron-tøddel" output="̄̈"/>
+			<when state="overprikk" output="̇"/>
+			<when state="overprikk-makron" output="˙̄"/>
+			<when state="overring" output="̊"/>
+			<when state="skråstrek" output="̷"/>
+			<when state="spesial" output="≪"/>
+			<when state="tilde" output="̃"/>
+			<when state="tilde-akutt" output="̃́"/>
+			<when state="tilde-makron" output="̃̄"/>
+			<when state="tilde-tøddel" output="̃̈"/>
+			<when state="tøddel" output="̈"/>
+			<when state="tøddel-akutt" output="̈́"/>
+			<when state="tøddel-grav" output="̈̀"/>
+			<when state="tøddel-hake" output="̈̌"/>
+			<when state="tøddel-makron" output="̈̄"/>
+			<when state="undercirkumfleks" output="̭"/>
+			<when state="underprikk" output="̣"/>
+			<when state="underprikk-makron" output="̣̄"/>
+			<when state="underprikk-overprikk" output="̣̇"/>
+			<when state="underring" output="̥"/>
+			<when state="understrek" output="̱"/>
+			<when state="undertilde" output="̰"/>
+			<when state="undertøddel" output="̤"/>
+		</action>
+		<action id="tast50capsalt">
+			<when state="none" output="≤"/>
+			<when state="breve" output="͝"/>
+			<when state="invertertbreve" output="͡"/>
+			<when state="makron" output="͞"/>
+			<when state="spesial" output="≺"/>
+			<when state="tilde" output="͠"/>
+			<when state="understrek" output="͟"/>
+		</action>
+		<action id="tast50shift">
+			<when state="none" output="&#x003E;"/>
+			<when state="breve" output="̮"/>
+			<when state="gjennomstrek" output="̶"/>
+			<when state="invertertbreve" output="̯"/>
+			<when state="komma" output="̒"/>
+			<when state="krok" output="̢"/>
+			<when state="kvist-makron" output="̨̅"/>
+			<when state="makron" output="̅"/>
+			<when state="makron-akutt" output="̅́"/>
+			<when state="makron-grav" output="̅̀"/>
+			<when state="makron-tøddel" output="̅̈"/>
+			<when state="overprikk-makron" output="̇̅"/>
+			<when state="skråstrek" output="̸"/>
+			<when state="spesial" output="≫"/>
+			<when state="tilde-makron" output="̃̅"/>
+			<when state="underprikk-makron" output="̣̅"/>
+			<when state="understrek" output="̲"/>
+		</action>
+		<action id="tilde">
+			<when state="none" next="tilde"/>
+			<when state="akutt" next="tilde-akutt"/>
+			<when state="breve" next="breve-tilde"/>
+			<when state="cirkumfleks" next="cirkumfleks-tilde"/>
+			<when state="horn" next="horn-tilde"/>
+			<when state="makron" next="tilde-makron"/>
+			<when state="spesial" output="▸"/>
+			<when state="tilde" next="undertilde"/>
+			<when state="tøddel" next="tilde-tøddel"/>
+		</action>
+		<action id="tilde 1">
+			<when state="none" next="tilde"/>
+			<when state="akutt" next="tilde-akutt"/>
+			<when state="breve" next="breve-tilde"/>
+			<when state="cirkumfleks" next="cirkumfleks-tilde"/>
+			<when state="horn" next="horn-tilde"/>
+			<when state="makron" next="tilde-makron"/>
+			<when state="spesial" output="▸"/>
+			<when state="tilde" next="undertilde"/>
+			<when state="tøddel" next="tilde-tøddel"/>
+		</action>
+		<action id="tøddel">
+			<when state="none" next="tøddel"/>
+			<when state="akutt" next="tøddel-akutt"/>
+			<when state="grav" next="tøddel-grav"/>
+			<when state="hake" next="tøddel-hake"/>
+			<when state="makron" next="makron-tøddel"/>
+			<when state="spesial" output="→"/>
+			<when state="tilde" next="tilde-tøddel"/>
+			<when state="tøddel" next="undertøddel"/>
+		</action>
+		<action id="tøddel 1">
+			<when state="none" next="tøddel"/>
+			<when state="akutt" next="tøddel-akutt"/>
+			<when state="grav" next="tøddel-grav"/>
+			<when state="hake" next="tøddel-hake"/>
+			<when state="makron" next="makron-tøddel"/>
+			<when state="spesial" output="→"/>
+			<when state="tilde" next="tilde-tøddel"/>
+			<when state="tøddel" next="undertøddel"/>
+		</action>
+		<action id="u">
+			<when state="none" output="u"/>
+			<when state="akutt" output="ú"/>
+			<when state="breve" output="ŭ"/>
+			<when state="cirkumfleks" output="û"/>
+			<when state="dobbelakutt" output="ű"/>
+			<when state="dobbelgrav" output="ȕ"/>
+			<when state="gjennomstrek" output="ʉ"/>
+			<when state="grav" output="ù"/>
+			<when state="hake" output="ǔ"/>
+			<when state="horn" output="ư"/>
+			<when state="horn-akutt" output="ứ"/>
+			<when state="horn-grav" output="ừ"/>
+			<when state="horn-krok" output="ử"/>
+			<when state="horn-tilde" output="ữ"/>
+			<when state="horn-underprikk" output="ự"/>
+			<when state="invertertbreve" output="ȗ"/>
+			<when state="krok" output="ủ"/>
+			<when state="kvist" output="ų"/>
+			<when state="makron" output="ū"/>
+			<when state="makron-tøddel" output="ṻ"/>
+			<when state="overring" output="ů"/>
+			<when state="spesial" output="ʊ"/>
+			<when state="tilde" output="ũ"/>
+			<when state="tilde-akutt" output="ṹ"/>
+			<when state="tøddel" output="ü"/>
+			<when state="tøddel-akutt" output="ǘ"/>
+			<when state="tøddel-grav" output="ǜ"/>
+			<when state="tøddel-hake" output="ǚ"/>
+			<when state="tøddel-makron" output="ǖ"/>
+			<when state="undercirkumfleks" output="ṷ"/>
+			<when state="underprikk" output="ụ"/>
+			<when state="undertilde" output="ṵ"/>
+			<when state="undertøddel" output="ṳ"/>
+		</action>
+		<action id="underprikk">
+			<when state="none" next="underprikk"/>
+			<when state="breve" next="breve-underprikk"/>
+			<when state="cirkumfleks" next="cirkumfleks-underprikk"/>
+			<when state="horn" next="horn-underprikk"/>
+			<when state="makron" next="underprikk-makron"/>
+			<when state="overprikk" next="underprikk-overprikk"/>
+			<when state="underprikk" next="overprikk"/>
+		</action>
+		<action id="v">
+			<when state="none" output="v"/>
+			<when state="krok" output="ʋ"/>
+			<when state="skråstrek" output="ꝟ"/>
+			<when state="spesial" output="ꝩ"/>
+			<when state="tilde" output="ṽ"/>
+			<when state="underprikk" output="ṿ"/>
+		</action>
+		<action id="w">
+			<when state="none" output="w"/>
+			<when state="akutt" output="ẃ"/>
+			<when state="cirkumfleks" output="ŵ"/>
+			<when state="grav" output="ẁ"/>
+			<when state="krok" output="ⱳ"/>
+			<when state="overprikk" output="ẇ"/>
+			<when state="overring" output="ẘ"/>
+			<when state="spesial" output="ƿ"/>
+			<when state="tøddel" output="ẅ"/>
+			<when state="underprikk" output="ẉ"/>
+		</action>
+		<action id="x">
+			<when state="none" output="x"/>
+			<when state="overprikk" output="ẋ"/>
+			<when state="tøddel" output="ẍ"/>
+		</action>
+		<action id="y">
+			<when state="none" output="y"/>
+			<when state="akutt" output="ý"/>
+			<when state="cirkumfleks" output="ŷ"/>
+			<when state="gjennomstrek" output="ɏ"/>
+			<when state="grav" output="ỳ"/>
+			<when state="krok" output="ƴ"/>
+			<when state="makron" output="ȳ"/>
+			<when state="overprikk" output="ẏ"/>
+			<when state="overring" output="ẙ"/>
+			<when state="spesial" output="ɥ"/>
+			<when state="tilde" output="ỹ"/>
+			<when state="tøddel" output="ÿ"/>
+			<when state="underprikk" output="ỵ"/>
+		</action>
+		<action id="z">
+			<when state="none" output="z"/>
+			<when state="akutt" output="ź"/>
+			<when state="cirkumfleks" output="ẑ"/>
+			<when state="gjennomstrek" output="ƶ"/>
+			<when state="hake" output="ž"/>
+			<when state="krok" output="ȥ"/>
+			<when state="overprikk" output="ż"/>
+			<when state="spesial" output="ʒ"/>
+			<when state="underprikk" output="ẓ"/>
+			<when state="understrek" output="ẕ"/>
+		</action>
+		<action id=" ">
+			<when state="none" output=" "/>
+			<when state="breve" output="⁐"/>
+			<when state="invertertbreve" output="⁀"/>
+			<when state="tilde" output="⁓"/>
+			<when state="tilde-makron" output="˜̄"/>
+		</action>
+		<action id="  1">
+			<when state="none" output=" "/>
+			<when state="breve" output="⁔"/>
+			<when state="invertertbreve" output="⁀"/>
+			<when state="tilde" output="⁓"/>
+			<when state="tilde-makron" output="˜̄"/>
+		</action>
+		<action id="  2">
+			<when state="none" output=" "/>
+			<when state="breve" output="‿"/>
+			<when state="invertertbreve" output="⁔"/>
+			<when state="tilde-makron" output="˜̅"/>
+		</action>
+		<action id="¤">
+			<when state="none" output="¤"/>
+			<when state="breve" output="͝"/>
+			<when state="invertertbreve" output="͡"/>
+			<when state="makron" output="͞"/>
+			<when state="spesial" output="⇥"/>
+			<when state="tilde" output="͠"/>
+			<when state="understrek" output="͟"/>
+		</action>
+		<action id="¤ 1">
+			<when state="none" output="¤"/>
+			<when state="breve" output="͝"/>
+			<when state="invertertbreve" output="͡"/>
+			<when state="makron" output="͞"/>
+			<when state="spesial" output="⇥"/>
+			<when state="tilde" output="͠"/>
+			<when state="understrek" output="͟"/>
+		</action>
+		<action id="§">
+			<when state="none" output="§"/>
+			<when state="breve" output="̮"/>
+			<when state="gjennomstrek" output="̶"/>
+			<when state="invertertbreve" output="̯"/>
+			<when state="komma" output="̒"/>
+			<when state="krok" output="̢"/>
+			<when state="kvist-makron" output="̨̅"/>
+			<when state="makron" output="̅"/>
+			<when state="makron-akutt" output="̅́"/>
+			<when state="makron-grav" output="̅̀"/>
+			<when state="makron-tøddel" output="̅̈"/>
+			<when state="overprikk-makron" output="̇̅"/>
+			<when state="skråstrek" output="̸"/>
+			<when state="spesial" output="⎋"/>
+			<when state="tilde-makron" output="̃̅"/>
+			<when state="underprikk-makron" output="̣̅"/>
+			<when state="understrek" output="̲"/>
+		</action>
+		<action id="¬">
+			<when state="none" output="¬"/>
+			<when state="spesial" output="∜"/>
+		</action>
+		<action id="±">
+			<when state="none" output="\"/>
+			<when state="spesial" output="▴"/>
+		</action>
+		<action id="± 1">
+			<when state="none" output="±"/>
+			<when state="spesial" output="▴"/>
+		</action>
+		<action id="µ">
+			<when state="none" output="µ"/>
+			<when state="gjennomstrek" output="ꝧ"/>
+			<when state="krok" output="ỷ"/>
+		</action>
+		<action id="µ 1">
+			<when state="none" output="µ"/>
+			<when state="gjennomstrek" output="Ꝧ"/>
+			<when state="krok" output="Ỷ"/>
+		</action>
+		<action id="Ä">
+			<when state="none" output="Ä"/>
+			<when state="makron" output="Ǟ"/>
+			<when state="spesial" output="Ǝ"/>
+		</action>
+		<action id="Ä 1">
+			<when state="none" output="Ä"/>
+			<when state="makron" output="Ǟ"/>
+			<when state="spesial" output="Ǝ"/>
+		</action>
+		<action id="Å">
+			<when state="none" output="Å"/>
+			<when state="akutt" output="Ǻ"/>
+			<when state="spesial" output="⇟"/>
+		</action>
+		<action id="Å 1">
+			<when state="none" output="Å"/>
+			<when state="akutt" output="Ǻ"/>
+			<when state="spesial" output="↓"/>
+		</action>
+		<action id="Æ">
+			<when state="none" output="Æ"/>
+			<when state="akutt" output="Ǽ"/>
+			<when state="makron" output="Ǣ"/>
+			<when state="spesial" output="Ʌ"/>
+		</action>
+		<action id="Æ 1">
+			<when state="none" output="Æ"/>
+			<when state="akutt" output="Ǽ"/>
+			<when state="makron" output="Ǣ"/>
+			<when state="spesial" output="Ʌ"/>
+		</action>
+		<action id="Ç">
+			<when state="none" output="Ç"/>
+			<when state="akutt" output="Ḉ"/>
+		</action>
+		<action id="Ç 1">
+			<when state="none" output="Ç"/>
+			<when state="akutt" output="Ḉ"/>
+		</action>
+		<action id="É">
+			<when state="none" output="É"/>
+			<when state="spesial" output="Ə"/>
+		</action>
+		<action id="É 1">
+			<when state="none" output="É"/>
+			<when state="spesial" output="Ə"/>
+		</action>
+		<action id="Ð">
+			<when state="none" output="Ð"/>
+			<when state="krok" output="Ɖ"/>
+			<when state="spesial" output="↩"/>
+		</action>
+		<action id="Ð 1">
+			<when state="none" output="Ð"/>
+			<when state="krok" output="Ɖ"/>
+			<when state="spesial" output="⏎"/>
+		</action>
+		<action id="Ö">
+			<when state="none" output="Ö"/>
+			<when state="makron" output="Ȫ"/>
+		</action>
+		<action id="Ö 1">
+			<when state="none" output="Ö"/>
+			<when state="makron" output="Ȫ"/>
+		</action>
+		<action id="Ø">
+			<when state="none" output="Ø"/>
+			<when state="akutt" output="Ǿ"/>
+			<when state="gjennomstrek" output="Ⱡ"/>
+		</action>
+		<action id="Ø 1">
+			<when state="none" output="Ø"/>
+			<when state="akutt" output="Ǿ"/>
+			<when state="gjennomstrek" output="Ⱡ"/>
+		</action>
+		<action id="Ü">
+			<when state="none" output="Ü"/>
+			<when state="akutt" output="Ǘ"/>
+			<when state="grav" output="Ǜ"/>
+			<when state="hake" output="Ǚ"/>
+			<when state="makron" output="Ǖ"/>
+			<when state="tøddel-makron" output="Ǖ"/>
+		</action>
+		<action id="Ü 1">
+			<when state="none" output="Ü"/>
+			<when state="akutt" output="Ǘ"/>
+			<when state="grav" output="Ǜ"/>
+			<when state="hake" output="Ǚ"/>
+			<when state="makron" output="Ǖ"/>
+		</action>
+		<action id="Þ">
+			<when state="none" output="Þ"/>
+			<when state="gjennomstrek" output="Ꝥ"/>
+			<when state="krok" output="Ʈ"/>
+		</action>
+		<action id="Þ 1">
+			<when state="none" output="Þ"/>
+			<when state="gjennomstrek" output="Ꝥ"/>
+			<when state="krok" output="Ʈ"/>
+		</action>
+		<action id="ß">
+			<when state="none" output="ß"/>
+			<when state="krok" output="ʂ"/>
+			<when state="overprikk" output="ẛ"/>
+			<when state="spesial" output="⌤"/>
+		</action>
+		<action id="ä">
+			<when state="none" output="ä"/>
+			<when state="makron" output="ǟ"/>
+			<when state="spesial" output="ǝ"/>
+		</action>
+		<action id="å">
+			<when state="none" output="å"/>
+			<when state="akutt" output="ǻ"/>
+			<when state="spesial" output="↓"/>
+		</action>
+		<action id="æ">
+			<when state="none" output="æ"/>
+			<when state="akutt" output="ǽ"/>
+			<when state="makron" output="ǣ"/>
+			<when state="spesial" output="ʌ"/>
+		</action>
+		<action id="ç">
+			<when state="none" output="ç"/>
+			<when state="akutt" output="ḉ"/>
+		</action>
+		<action id="é">
+			<when state="none" output="é"/>
+			<when state="spesial" output="ə"/>
+		</action>
+		<action id="ð">
+			<when state="none" output="ð"/>
+			<when state="krok" output="ɖ"/>
+			<when state="spesial" output="↩"/>
+		</action>
+		<action id="ö">
+			<when state="none" output="ö"/>
+			<when state="makron" output="ȫ"/>
+		</action>
+		<action id="÷">
+			<when state="none" output="÷"/>
+			<when state="hake" output="ǯ"/>
+			<when state="krok" output="ʐ"/>
+			<when state="spesial" output="ǯ"/>
+		</action>
+		<action id="÷ 1">
+			<when state="none" output="÷"/>
+			<when state="hake" output="Ǯ"/>
+			<when state="spesial" output="Ǯ"/>
+		</action>
+		<action id="ø">
+			<when state="none" output="ø"/>
+			<when state="akutt" output="ǿ"/>
+			<when state="gjennomstrek" output="ⱡ"/>
+		</action>
+		<action id="ü">
+			<when state="none" output="ü"/>
+			<when state="akutt" output="ǘ"/>
+			<when state="grav" output="ǜ"/>
+			<when state="hake" output="ǚ"/>
+			<when state="makron" output="ǖ"/>
+			<when state="spesial" output="ᵫ"/>
+		</action>
+		<action id="þ">
+			<when state="none" output="þ"/>
+			<when state="gjennomstrek" output="ꝥ"/>
+			<when state="krok" output="ʈ"/>
+		</action>
+		<action id="İ">
+			<when state="none" output="İ"/>
+			<when state="overprikk" output="Ɩ"/>
+		</action>
+		<action id="İ 1">
+			<when state="none" output="İ"/>
+			<when state="overprikk" output="Ɩ"/>
+		</action>
+		<action id="ı">
+			<when state="none" output="ı"/>
+			<when state="overprikk" output="ɩ"/>
+		</action>
+		<action id="Ÿ">
+			<when state="none" output="Ÿ"/>
+			<when state="breve" output="͜"/>
+			<when state="invertertbreve" output="᷼"/>
+			<when state="spesial" output="⌧"/>
+		</action>
+		<action id="ƒ">
+			<when state="none" output="ƒ"/>
+			<when state="spesial" output="ʣ"/>
+		</action>
+		<action id="˜">
+			<when state="none" output="˜"/>
+			<when state="gjennomstrek" output="Ꝧ"/>
+			<when state="krok" output="Ỷ"/>
+		</action>
+		<action id="π">
+			<when state="none" output="π"/>
+			<when state="gjennomstrek" output="ꝑ"/>
+			<when state="spesial" output="◂"/>
+		</action>
+		<action id="π 1">
+			<when state="none" output="π"/>
+			<when state="gjennomstrek" output="Ꝑ"/>
+			<when state="spesial" output="◂"/>
+		</action>
+		<action id="–">
+			<when state="none" output="–"/>
+			<when state="gjennomstrek" output="‑"/>
+		</action>
+		<action id="– 1">
+			<when state="none" output="–"/>
+			<when state="gjennomstrek" output="‑"/>
+		</action>
+		<action id="‘">
+			<when state="none" output="‘"/>
+			<when state="krok" output="ɳ"/>
+			<when state="kvist" output="ƞ"/>
+			<when state="spesial" output="ʻ"/>
+		</action>
+		<action id="‘ 1">
+			<when state="none" output="‘"/>
+			<when state="kvist" output="Ƞ"/>
+			<when state="spesial" output="ʻ"/>
+		</action>
+		<action id="’">
+			<when state="none" output="µ"/>
+			<when state="spesial" output="ʼ"/>
+		</action>
+		<action id="’ 1">
+			<when state="none" output="’"/>
+			<when state="spesial" output="ʼ"/>
+		</action>
+		<action id="“">
+			<when state="none" output="“"/>
+			<when state="kvist" output="Ƞ"/>
+			<when state="spesial" output="ǋ"/>
+		</action>
+		<action id="•">
+			<when state="none" output="•"/>
+			<when state="spesial" output="‣"/>
+		</action>
+		<action id="• 1">
+			<when state="none" output="•"/>
+			<when state="spesial" output="‣"/>
+		</action>
+		<action id="…">
+			<when state="none" output="…"/>
+			<when state="spesial" output="‥"/>
+		</action>
+		<action id="… 1">
+			<when state="none" output="…"/>
+			<when state="spesial" output="‥"/>
+		</action>
+		<action id="‰">
+			<when state="none" output="‰"/>
+			<when state="spesial" output="⁒"/>
+		</action>
+		<action id="‹">
+			<when state="none" output="‹"/>
+			<when state="krok" output="ⱱ"/>
+		</action>
+		<action id="⁄">
+			<when state="none" output="⁄"/>
+			<when state="hake" output="Ǯ"/>
+			<when state="spesial" output="Ǯ"/>
+		</action>
+		<action id="∏">
+			<when state="none" output="∏"/>
+			<when state="gjennomstrek" output="Ꝑ"/>
+		</action>
+		<action id="∑">
+			<when state="none" output="∑"/>
+			<when state="overprikk" output="Ṡ"/>
+			<when state="spesial" output="⏏"/>
+		</action>
+		<action id="√">
+			<when state="none" output="√"/>
+			<when state="gjennomstrek" output="ɟ"/>
+			<when state="overprikk" output="ɟ"/>
+			<when state="spesial" output="∛"/>
+		</action>
+		<action id="√ 1">
+			<when state="none" output="√"/>
+			<when state="spesial" output="∛"/>
+		</action>
+		<action id="∞">
+			<when state="none" output="∞"/>
+			<when state="spesial" output="∝"/>
+		</action>
+		<action id="∞ 1">
+			<when state="none" output="∞"/>
+			<when state="spesial" output="∝"/>
+		</action>
+		<action id="∫">
+			<when state="none" output="∫"/>
+			<when state="hake" output="ǅ"/>
+			<when state="spesial" output="ǲ"/>
+		</action>
+		<action id="◊">
+			<when state="none" output="◊"/>
+			<when state="spesial" output="⇪"/>
+		</action>
+		<action id="">
+			<when state="none" output=""/>
+			<when state="spesial" output="⌥"/>
+		</action>
+		<action id=" 1">
+			<when state="none" output=""/>
+			<when state="spesial" output="⌥"/>
+		</action>
+		<action id="ﬁ">
+			<when state="none" output="ﬁ"/>
+			<when state="gjennomstrek" output="ƚ"/>
+			<when state="krok" output="ɭ"/>
+			<when state="spesial" output="ʎ"/>
+		</action>
+		<action id="ﬁ 1">
+			<when state="none" output="ﬁ"/>
+			<when state="gjennomstrek" output="Ƚ"/>
+		</action>
+		<action id="ﬂ">
+			<when state="none" output="ﬂ"/>
+			<when state="gjennomstrek" output="Ƚ"/>
+			<when state="spesial" output="ǈ"/>
+		</action>
+	</actions>
+	<terminators>
+		<when state="akutt" output="´"/>
+		<when state="akutt-overprikk" output="´̇"/>
+		<when state="breve" output="˘"/>
+		<when state="breve-akutt" output="˘́"/>
+		<when state="breve-grav" output="˘̀"/>
+		<when state="breve-krok" output="˘̉"/>
+		<when state="breve-tilde" output="˘̃"/>
+		<when state="breve-underprikk" output=" ̣̆"/>
+		<when state="cedille" output="¸"/>
+		<when state="cedille-breve" output=" ̧̆"/>
+		<when state="cirkumfleks" output="^"/>
+		<when state="cirkumfleks-akutt" output="ˆ́"/>
+		<when state="cirkumfleks-grav" output="ˆ̀"/>
+		<when state="cirkumfleks-krok" output="ˆ̉"/>
+		<when state="cirkumfleks-tilde" output="ˆ̃"/>
+		<when state="cirkumfleks-underprikk" output=" ̣̂"/>
+		<when state="dobbelakutt" output="´"/>
+		<when state="dobbelgrav" output="˵"/>
+		<when state="gjennomstrek" output="-"/>
+		<when state="grav" output="`"/>
+		<when state="hake" output="ˇ"/>
+		<when state="hake-overprikk" output="ˇ̇"/>
+		<when state="horn" output="ʼ"/>
+		<when state="horn-akutt" output="´ʼ"/>
+		<when state="horn-grav" output="`ʼ"/>
+		<when state="horn-krok" output="ˀʼ"/>
+		<when state="horn-tilde" output="~ʼ"/>
+		<when state="horn-underprikk" output=".ʼ"/>
+		<when state="invertertbreve" output=" ̑"/>
+		<when state="komma" output=","/>
+		<when state="krok" output="ˀ"/>
+		<when state="kvist" output="˛"/>
+		<when state="kvist-makron" output=" ̨̄"/>
+		<when state="makron" output="¯"/>
+		<when state="makron-akutt" output="¯́"/>
+		<when state="makron-grav" output="¯̀"/>
+		<when state="makron-tøddel" output="¯̈"/>
+		<when state="overprikk" output="˙"/>
+		<when state="overprikk-makron" output="˙̄"/>
+		<when state="overring" output="˚"/>
+		<when state="skråstrek" output="/"/>
+		<when state="spesial" output="¤"/>
+		<when state="tilde" output="~"/>
+		<when state="tilde-akutt" output="~́"/>
+		<when state="tilde-makron" output="~̄"/>
+		<when state="tilde-tøddel" output="~̈"/>
+		<when state="tøddel" output="¨"/>
+		<when state="tøddel-akutt" output="΅"/>
+		<when state="tøddel-grav" output="῭"/>
+		<when state="tøddel-hake" output="¨̌"/>
+		<when state="tøddel-makron" output="¨̄"/>
+		<when state="undercirkumfleks" output="ꞈ"/>
+		<when state="underprikk" output="."/>
+		<when state="underprikk-makron" output=" ̣̄"/>
+		<when state="underprikk-overprikk" output=":"/>
+		<when state="underring" output="˳"/>
+		<when state="understrek" output="ˍ"/>
+		<when state="undertilde" output="˷"/>
+		<when state="undertøddel" output=" ̤"/>
+	</terminators>
+</keyboard>
